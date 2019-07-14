@@ -1,4 +1,25 @@
 {
+    "navigation": [{
+        "title": "ALEKSANDRA SPADLO",
+        "target": "homePage",
+        "classes": "float-left",
+        "id": "home"
+    }, {
+        "title": "Contact",
+        "target": "contactMe",
+        "classes": null,
+        "id": "contact"
+    }, {
+        "title": "My works",
+        "target": "myWorks",
+        "classes": null,
+        "id": "mywork"
+    }, {
+        "title": "About",
+        "target": "aboutMe",
+        "classes": null,
+        "id": "about"
+    }],
     "heroBanner" : {
         "title": "ALEKSANDRA SPADLO",
         "subTitle": "Portfolio"
