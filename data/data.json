@@ -16,6 +16,7 @@
         "title": "Contact",
         "phoneNumer": "Phone: 00009987890",
         "emailAddress": "Email: asdasds@sadasa.com",
+        "socialTitle": "Follow",
         "socialNetwork": [{
             "url": "https://www.linkedin.com/in/alexandra-spadlo/",
             "icon": "fab fa-linkedin"

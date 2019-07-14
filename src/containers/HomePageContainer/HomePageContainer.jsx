@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { API_URL } from '../../constants/config';
-import { retrieveDayeProducts } from '../../actions';
+import { getGitContent } from '../../actions';
 import HomePage from '../../components/HomePage/HomePage';
 import loadingImg from '../../../static/loadingImage.gif';
 
@@ -16,12 +16,12 @@ class HomePageContainer extends React.Component {
 	}
 
 	componentDidMount() {
-		this.props.retrieveDayeProducts();
+		this.props.getGitContent();
 	}
 
 	render() {
-		if (this.props.dayeproduct && this.props.dayeproduct.entries) {
-			return <HomePage retrievedObjet={this.props.dayeproduct.entries} />;
+		if (this.props.gitcontent && this.props.gitcontent.entries) {
+			return <HomePage retrievedObjet={this.props.gitcontent.entries} />;
 		}
 		return (
 			<section className="w-100 text-center pt-5 mt-5">
@@ -32,22 +32,22 @@ class HomePageContainer extends React.Component {
 }
 
 HomePageContainer.propTypes = {
-	retrieveDayeProducts: PropTypes.func.isRequired,
+	getGitContent: PropTypes.func.isRequired,
 };
 
 HomePageContainer.defaultProps = {
-	dayeproduct: null,
+	gitcontent: null,
 };
 
 function mapStateToProps(state) {
 	return {
-		dayeproduct: state.get('dayeproduct').toJS(),
+		gitcontent: state.get('gitcontent').toJS(),
 	};
 }
 
 function mapDispatchToProps(dispatch) {
 	return bindActionCreators({
-		retrieveDayeProducts,
+		getGitContent,
 	}, dispatch);
 }
 

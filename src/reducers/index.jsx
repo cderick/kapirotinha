@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux-immutable';
-import dayeProdReducer from './dayeproduct';
+import gitContentReducer from './gitcontent';
 
 const rootReducer = combineReducers({
-	dayeproduct: dayeProdReducer,
+	gitcontent: gitContentReducer,
 });
 
 export default rootReducer;

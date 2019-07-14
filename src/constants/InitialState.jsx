@@ -1,12 +1,12 @@
 import { fromJS } from 'immutable';
 
-import * as userState from './ProductState';
+import * as userState from './ContentState';
 
 const state = {
-	dayeproduct: {
+	gitcontent: {
 		entries: null,
 		errors: null,
-		status: userState.PRODUCT_RETRIEVED,
+		status: userState.CONTENT_RETRIEVED,
 	},
 };
 
