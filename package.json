@@ -12,14 +12,14 @@
     "lint": "eslint ./src/**/*.jsx"
   },
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.18.1",
     "bootstrap": "4.3.1",
     "browserslist": "4.6.3",
     "caniuse-lite": "^1.0.30000975",
     "core-js": "^3.0.1",
     "immutable": "3.8.2",
-    "jquery": "3.3.1",
-    "lodash": "4.17.11",
+    "jquery": "3.4.0",
+    "lodash": "4.17.13",
     "moment": "2.24.0",
     "popper.js": "1.15.0",
     "postcss-preset-env": "^6.6.0",
@@ -76,7 +76,9 @@
     "not dead"
   ],
   "jest": {
-    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less|sass|scss)$": "identity-obj-proxy"
