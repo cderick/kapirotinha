@@ -5,23 +5,29 @@ import s from './HeroBanner.scss';
 class HeroBanner extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			finalProduct: this.props.finalProduct ? this.props.finalProduct : undefined,
-		};
 	}
 
 	render() {
+		const { heroBanner } = this.props;
 		return (
 			<div className={`container-fluid ${s.containerBackground}`}>
 				<div className="row h-100">
 					<div className="col my-auto text-center">
-						<h1 className="display-4">ALEKSANDRA SPADLO</h1>
-						<h2 className="display-5">Portfolio</h2>
+						<h1 className="display-4">{heroBanner && heroBanner.title && heroBanner.title}</h1>
+						<h2 className="display-5">{heroBanner && heroBanner.subTitle && heroBanner.subTitle}</h2>
 					</div>
 				</div>
 			</div>
 		)
 	}
 }
+
+HeroBanner.propTypes = {
+	heroBanner: PropTypes.objectOf(PropTypes.any),
+};
+
+HeroBanner.defaultProps = {
+	heroBanner: null,
+};
 
 export default HeroBanner;
