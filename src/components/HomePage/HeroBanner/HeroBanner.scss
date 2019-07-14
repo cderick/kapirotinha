@@ -1,0 +1,14 @@
+.containerBackground {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)
+	  ), url('../../../../static/banner.png');
+	background-position: center center;
+	height: 50vh;
+	h1 {
+		color: white;
+	}
+	h2 {
+		color: white;
+	}
+}

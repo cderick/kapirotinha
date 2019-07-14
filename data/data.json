@@ -1,0 +1,33 @@
+{
+    "heroBanner" : {
+        "title": "ALEKSANDRA SPADLO",
+        "subTitle": "Portfolio"
+    },
+    "aboutMe": {
+        "title": "Who is Aleksandra Spadlo",
+        "subTitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+    },
+    "myWorks": [{
+        "cardTitle": "Web, App, Prototypes"
+    }, {
+        "cardTitle": "Artwork, CAD, Fashion"
+    }],
+    "contactMe": {
+        "title": "Contact",
+        "phoneNumer": "Phone: 00009987890",
+        "emailAddress": "Email: asdasds@sadasa.com",
+        "socialNetwork": [{
+            "url": "https://www.linkedin.com/in/alexandra-spadlo/",
+            "icon": "fab fa-linkedin"
+        }, {
+            "url": "https://www.instagram.com/kapirotinia/",
+            "icon": "fab fa-instagram"
+        }, {
+            "url": "https://www.behance.net/",
+            "icon": "fab fa-behance-square"
+        }, {
+            "url": "https://www.facebook.com/profile.php?id=100001025402417",
+            "icon": "fab fa-facebook-square"
+        }]
+    }
+}
