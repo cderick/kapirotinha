@@ -10,7 +10,7 @@ class HeroBanner extends React.Component {
 	render() {
 		const { heroBanner } = this.props;
 		return (
-			<div className={`container-fluid ${s.containerBackground}`}>
+			<div id="homePage" className={`container-fluid ${s.containerBackground}`}>
 				<div className="row h-100">
 					<div className="col my-auto text-center">
 						<h1 className="display-4">{heroBanner && heroBanner.title && heroBanner.title}</h1>

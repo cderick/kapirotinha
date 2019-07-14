@@ -10,7 +10,7 @@ class ContactMe extends React.Component {
 	render() {
 		const { contactMe } = this.props;
 		return (
-			<div className={`container ${s.containerBackground}`}>
+			<div id="contactMe" className={`container ${s.containerBackground}`}>
 				<div className="row h-100">
 					<div className="col my-auto text-center">
 						<h2 className="h1 mb-3">{contactMe && contactMe.title && contactMe.title}</h2>

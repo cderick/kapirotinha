@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
 	render() {
 		const { aboutMe } = this.props;
 		return (
-			<div className={`container ${s.containerBackground}`}>
+			<div id="aboutMe" className={`container ${s.containerBackground}`}>
 				<div className="row h-100">
 					<div className="col my-auto text-center">
 						<h2 className="h1 mb-5">{aboutMe && aboutMe.title && aboutMe.title}</h2>

@@ -15,12 +15,13 @@ class Navigation extends React.Component {
 	}
 
 	render() {
+		const { navItems } = this.props;
 		return (
 			<nav className={s.topnav} id="myTopnav">
-				<a id="home" className={`float-left`} onClick={(e) => { this.toggleNav(e); }} href="javascript:void(0)">ALEKSANDRA SPADLO</a>
-				<a id="contact" onClick={(e) => { this.toggleNav(e); }} href="javascript:void(0)">Contact</a>
-				<a id="works" onClick={(e) => { this.toggleNav(e); }} href="javascript:void(0)">My works</a>
-				<a id="about" onClick={(e) => { this.toggleNav(e); }} href="javascript:void(0)">About</a>
+				{navItems && navItems.length &&
+				navItems.map((cv, ind) => 
+					<a key={`key-${ind}`} className={cv.classes && cv.classes} id={cv.id} onClick={() => { this.toggleNav(cv.target); }} href="javascript:void(0)">{cv.title}</a>
+				)}
 			</nav>
 		);
 	}

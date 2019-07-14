@@ -13,7 +13,7 @@ class MyWorks extends React.Component {
 
 	render() {
 		return (
-			<div className={`container-fluid ${s.containerBackground}`}>
+			<div id="myWorks" className={`container-fluid ${s.containerBackground}`}>
 				<div className="row">
 					<div className="col text-center">
 						<h3 className="h1 pt-5 pb-5">My works</h3>

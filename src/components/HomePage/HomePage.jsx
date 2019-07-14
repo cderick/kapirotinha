@@ -15,6 +15,7 @@ class HomePage extends React.Component {
 			aboutMe: undefined,
 			contactMe: undefined,
 			myWorks: undefined,
+			navItems: undefined,
 		};
 		this.navigation = this.navigation.bind(this);
 	}
@@ -28,6 +29,7 @@ class HomePage extends React.Component {
 			conversao = JSON.parse(conversao);
 		}
 		this.setState({
+			navItems: conversao.navigation,
 			heroBanner: conversao.heroBanner,
 			aboutMe: conversao.aboutMe,
 			myWorks: conversao.myWorks,
@@ -46,7 +48,7 @@ class HomePage extends React.Component {
 	render() {
 		return (
 			<section>
-				<Navigation navigation={this.navigation} />
+				<Navigation navItems={this.state.navItems} navigation={this.navigation} />
 				<HeroBanner heroBanner={this.state.heroBanner} />
 				<AboutMe aboutMe={this.state.aboutMe} />
 				<MyWorks myWorks={this.state.myWorks} />
