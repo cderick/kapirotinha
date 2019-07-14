@@ -17,7 +17,6 @@ class HomePage extends React.Component {
 			myWorks: undefined,
 			navItems: undefined,
 		};
-		this.navigation = this.navigation.bind(this);
 	}
 
 	componentDidMount(){
@@ -36,19 +35,11 @@ class HomePage extends React.Component {
 			contactMe: conversao.contactMe,
 		});
 	}
-
-	navigation(id) {
-		if (id) {
-			this.setState({
-				dynamicTab: id,
-			});
-		}
-	}
 	
 	render() {
 		return (
 			<section>
-				<Navigation navItems={this.state.navItems} navigation={this.navigation} />
+				<Navigation navItems={this.state.navItems} />
 				<HeroBanner heroBanner={this.state.heroBanner} />
 				<AboutMe aboutMe={this.state.aboutMe} />
 				<MyWorks myWorks={this.state.myWorks} />

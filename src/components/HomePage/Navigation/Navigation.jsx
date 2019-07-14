@@ -9,8 +9,13 @@ class Navigation extends React.Component {
 	}
 
 	toggleNav(e) {
-		if (e && e.target) {
-			this.props.navigation(e.target.id);			
+		if (e) {
+			const substract = document.querySelector('#myTopnav').offsetHeight;
+			const target = document.querySelector(`#${e}`).offsetTop;
+			window.scrollTo({
+				top: target - substract,
+				behavior: 'smooth',
+			});
 		}
 	}
 
