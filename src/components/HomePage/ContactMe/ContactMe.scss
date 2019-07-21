@@ -1,10 +1,25 @@
 .containerBackground {
-	background-color: white;
-	height: 50vh;
-	h1 {
-		color: black;
+	background-color: #00191E;
+	height: 40vh;
+	h3 {
+		color: white;
 	}
 	h2 {
-		color:black;
+		color:white;
+	}
+	hr { 
+		display: block; 
+		height: 1px;
+		border: 0; 
+		border-top: 2px solid #fff;
+		padding: 0 0 30px; 
+		width:	80%;
+		margin: 0;
+	}
+	.rightHr {
+		float: right;
+	}
+	.clearfix {
+		clear: both;
 	}
 }

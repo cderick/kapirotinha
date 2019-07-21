@@ -1,14 +1,27 @@
 .containerBackground {
-	background: linear-gradient(
-		rgba(0, 0, 0, 0.7), 
-		rgba(0, 0, 0, 0.7)
-	  ), url('../../../../static/banner.png');
+	background-image: url('../../../../static/headback.png');
 	background-position: center center;
-	height: 50vh;
+	height: 70vh;
 	h1 {
+		font-family: 'Stardos Stencil', cursive;
+		font-weight: bold;
+		font-size: 4.3rem;
+		letter-spacing: 2px;
+		padding-bottom: 20px;
 		color: white;
 	}
+	hr { 
+		display: block; 
+		height: 1px;
+		border: 0; 
+		border-top: 2px solid #fff;
+		padding: 0 0 40px; 
+		width:	80%;
+		margin: 0 auto;
+	}
 	h2 {
+		font-size: 3rem;
+		font-family: 'Sylfaen';
 		color: white;
 	}
 }

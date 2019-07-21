@@ -6,17 +6,16 @@ import squareCat from '../../../../static/cat.jpg';
 class MyWorks extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			finalProduct: this.props.finalProduct ? this.props.finalProduct : undefined,
-		};
 	}
 
 	render() {
+		console.log(this.props.myWorks)
 		return (
 			<div id="myWorks" className={`container-fluid ${s.containerBackground}`}>
 				<div className="row">
 					<div className="col text-center">
-						<h3 className="h1 pt-5 pb-5">My works</h3>
+						<h3 className="h1 pt-4 pb-3">My works</h3>
+						<hr />
 					</div>
 				</div>
 				<div className="row">

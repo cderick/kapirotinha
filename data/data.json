@@ -28,11 +28,14 @@
         "title": "Who is Aleksandra Spadlo",
         "subTitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
     },
-    "myWorks": [{
-        "cardTitle": "Web, App, Prototypes"
-    }, {
-        "cardTitle": "Artwork, CAD, Fashion"
-    }],
+    "myWorks": {
+        "title": "My works",
+        "cards": [{
+            "cardTitle": "Web, App, Prototypes"
+        }, {
+            "cardTitle": "Artwork, CAD, Fashion"
+        }]
+    },
     "contactMe": {
         "title": "Contact",
         "phoneNumer": "Phone: 00009987890",

@@ -1,10 +1,32 @@
 .containerBackground {
-	background-color: white;
-	height: 50vh;
-	h1 {
-		color: black;
-	}
+	background-image: url('../../../../static/hero.png');
+	background-position: top right;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 80vh;
 	h2 {
-		color:black;
+		color: white;
+	}
+	h3 {
+		color:white;
+	}
+	img {
+		display: none;
+	}
+	@media screen and (max-width: 750px) {
+		img {
+			display: block;			
+		}
+		h2 {
+			color: black;
+		}
+		h3 {
+			color:black;
+		}
+	}
+}
+@media screen and (max-width: 750px) {
+	.containerBackground {
+		background-image: none;
 	}
 }

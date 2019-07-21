@@ -25,7 +25,7 @@ class Navigation extends React.Component {
 			<nav className={s.topnav} id="myTopnav">
 				{navItems && navItems.length &&
 				navItems.map((cv, ind) => 
-					<a key={`key-${ind}`} className={cv.classes && cv.classes} id={cv.id} onClick={() => { this.toggleNav(cv.target); }} href="javascript:void(0)">{cv.title}</a>
+					<a key={`key-${ind}`} className={`${cv.classes && cv.classes} ${ind === 0 && s.stencil}`} id={cv.id} onClick={() => { this.toggleNav(cv.target); }} href="javascript:void(0)">{cv.title}</a>
 				)}
 			</nav>
 		);

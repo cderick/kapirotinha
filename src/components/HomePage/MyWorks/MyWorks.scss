@@ -1,10 +1,19 @@
 .containerBackground {
-	background-color: grey;
+	background-color: white;
 	padding-bottom: 3%;
 	h2 {
-		color: white;
+		color: black;
 	}
 	h3 {
-		color:white;
+		color:black;
+	}
+	hr { 
+		display: block; 
+		height: 1px;
+		border: 0; 
+		border-top: 2px solid #000;
+		padding: 0 0 40px; 
+		width:	45%;
+		margin: 0 auto;
 	}
 }
