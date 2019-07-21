@@ -31,8 +31,10 @@
     "myWorks": {
         "title": "My works",
         "cards": [{
+            "target": "web",
             "cardTitle": "Web, App, Prototypes"
         }, {
+            "target": "fashion",
             "cardTitle": "Artwork, CAD, Fashion"
         }]
     },
