@@ -13,10 +13,10 @@ class AboutMe extends React.Component {
 		return (
 			<div id="aboutMe" className={`container-fluid ${s.containerBackground}`}>
 				<div className="row h-100">
-					<div className="col my-auto text-center">
-						<h2 className="h1 mb-5">{aboutMe && aboutMe.title && aboutMe.title}</h2>
+					<div className="col my-auto p-0 text-center">
+						<h2 className="h1 mb-4">{aboutMe && aboutMe.title && aboutMe.title}</h2>
 						<hr />
-						<h3 className="h4 mt-5">{aboutMe && aboutMe.subTitle && aboutMe.subTitle}</h3>
+						<h3 className="h4 pl-5 pr-5 mt-2">{aboutMe && aboutMe.subTitle && aboutMe.subTitle}</h3>
 					</div>
 					<div className="col my-auto text-center">
 						<img width="330" className="rounded-circle" src={squareCat} />

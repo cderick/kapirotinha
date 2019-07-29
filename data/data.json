@@ -32,10 +32,14 @@
         "title": "My works",
         "cards": [{
             "target": "web",
-            "cardTitle": "Web, App, Prototypes"
+            "cardTitle": "WEBSITES / PROTOTYPES",
+            "buttonDescrip": "Take a look",
+            "cardDescrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet"
         }, {
             "target": "fashion",
-            "cardTitle": "Artwork, CAD, Fashion"
+            "cardTitle": "ARTWORKS / BANNERS / CAD DESIGN",
+            "buttonDescrip": "Take a look",
+            "cardDescrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet"
         }]
     },
     "contactMe": {
@@ -52,9 +56,6 @@
         }, {
             "url": "https://www.behance.net/",
             "icon": "fab fa-behance-square"
-        }, {
-            "url": "https://www.facebook.com/profile.php?id=100001025402417",
-            "icon": "fab fa-facebook-square"
         }]
     }
 }

@@ -137,6 +137,13 @@ if (TARGET === 'dev') {
                 NODE_ENV: JSON.stringify('production'),
             },
         }),
+        new HtmlWebpackPlugin({
+            dev: true,
+            template: 'templates/index.html',
+            filename: 'index.html',
+            chunks: ['index'],
+            hash: true,
+        }),
         new UglifyJsPlugin({
             uglifyOptions: {
                 warnings: false,
@@ -151,43 +158,39 @@ if (TARGET === 'dev') {
     ];
     
     module.exports = merge.smart(common, {
-        devtool: 'source-map',
         module: {
             rules: [
                 {
                     test: /\.scss$/,
                     exclude: path.join(__dirname, 'src/components'),
-                    use: extractGlobalCSS.extract({
-                        fallback: 'style-loader', 
-                        use: ['css-loader', 'postcss-loader', 'sass-loader'],
-                    }),
+                    use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
                 },
                 {
                     test: /\.scss$/,
                     include: path.join(__dirname, 'src/components'),
-                    use: extractModuleCSS.extract({
-                        fallback: 'style-loader', 
-                        use: [
-                            {
-                                loader: 'css-loader',
-                                options: {
-                                    modules: true,
-                                    importLoaders: 1,
-                                    localIdentName: '[name]__[local]___[hash:base64:5]',
-                                },
+                    use: [
+                        {
+                            loader: 'style-loader',
+                        },
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                modules: true,
+                                importLoaders: 1,
+                                localIdentName: '[name]__[local]___[hash:base64:5]',
                             },
-                            {
-                                loader: 'postcss-loader',
-                            },
-                            {
-                                loader: 'sass-loader',
-                            },
-                        ],
-                    }),
+                        },
+                        {
+                            loader: 'postcss-loader',
+                        },
+                        {
+                            loader: 'sass-loader',
+                        },
+                    ],
                 },
                 {
                     test: /\.(png|svg|jpg|jpeg|gif|pdf|mp4)$/,
-                    use: ['file-loader?name=[name].[ext]&outputPath=/images/'],
+                    use: ['file-loader?name=[name].[ext]&outputPath=images/'],
                 },
             ],
         },
