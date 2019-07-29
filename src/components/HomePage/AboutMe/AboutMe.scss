@@ -24,7 +24,9 @@
 	}
 	@media screen and (max-width: 750px) {
 		img {
-			display: block;			
+			display: block;	
+			width: 100%;		
+			height: auto;
 		}
 		h2 {
 			color: black;

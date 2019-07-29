@@ -25,3 +25,20 @@
 		color: white;
 	}
 }
+
+@media (max-width: 756px) {
+	.containerBackground {
+		height: 50vh;
+	}
+	h1 {
+		font-size: 1.7rem !important;
+		padding-bottom: 0px !important;
+	}
+	hr {
+		padding-bottom: 20px !important;
+	}
+	h2 {
+		font-size: 1.5rem !important;
+	}
+}
+

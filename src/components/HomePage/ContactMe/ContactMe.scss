@@ -23,3 +23,33 @@
 		clear: both;
 	}
 }
+
+@media (max-width: 756px) { 
+	.containerBackground {
+		height: auto !important;
+	}
+	.clearDisplay {
+		display: block !important;
+	}
+	h2 {
+		padding-top: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 0px !important;
+	}
+	hr {
+		margin: 0 auto !important;
+		width: 70% !important;
+		padding-bottom: 10px !important;
+	}
+	h3 {
+		font-size: 1rem !important;
+	}
+	.rightHr {
+		float: none !important;
+		margin: 0 auto !important;
+		width: 70% !important;
+	}
+	.paddingNoneSm {
+		padding: 0 0 20px !important;
+	}
+}

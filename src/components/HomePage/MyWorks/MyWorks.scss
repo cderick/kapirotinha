@@ -28,3 +28,22 @@
 		}
 	}
 }
+
+@media (max-width: 756px) {
+	.containerBackground {
+		h3 {
+			font-size: 1.4rem !important;
+		}
+	}
+	.myCard {
+		margin-bottom: 20px;
+		text-align: center !important;
+		h2 {
+			font-size: 1.4rem !important;
+		}
+		.fakeButton {
+			float: none !important;
+			margin: 0 auto !important;
+		}
+	}	
+}
