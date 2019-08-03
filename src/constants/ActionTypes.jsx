@@ -1,2 +1,0 @@
-const GET_GITCONTENT = 'GET_GITCONTENT';
-export { GET_GITCONTENT };
