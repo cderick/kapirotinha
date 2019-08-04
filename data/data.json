@@ -57,5 +57,100 @@
             "url": "https://www.behance.net/",
             "icon": "fab fa-behance-square"
         }]
+    },
+    "webWorks": {
+        "mainTitle": "WEBSITES",
+        "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+        "allWorks": [{
+            "workNameId": "EVENTI",
+            "bannerImage": "../../../../../static/eventi-banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "featurePages": {
+                "background" : "#efefef",
+                "mainTitle": "Features/Pages",
+                "images": [{
+                    "src": "../../../../../static/eventi_main_page.png"
+                }]
+            },
+            "layout": {
+                "background" : null,
+                "mainTitle": "Layout",
+                "images": [{
+                    "src": "../../../../../static/eventi_layout.png"
+                }]
+            },
+            "spacing": {
+                "background" : "#efefef",
+                "mainTitle": "Spacing",
+                "images": [{
+                    "src": "../../../../../static/eventi_spacing.png"
+                }]
+            }
+        }]
     }
 }
