@@ -42,7 +42,8 @@ class PopupContent extends React.Component {
     }
 
     render() {
-        const { popUpcontent } = this.props;
+        const { popUpcontent, webWorks } = this.props;
+        console.log(webWorks);
         const { targetCollapse, targetOn } = this.state;
         return (
             <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>

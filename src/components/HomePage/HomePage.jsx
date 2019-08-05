@@ -16,6 +16,7 @@ class HomePage extends React.Component {
 			contactMe: undefined,
 			myWorks: undefined,
 			navItems: undefined,
+			webWorks: undefined,
 		};
 	}
 
@@ -33,6 +34,7 @@ class HomePage extends React.Component {
 			aboutMe: conversao.aboutMe,
 			myWorks: conversao.myWorks,
 			contactMe: conversao.contactMe,
+			webWorks: conversao.webWorks,
 		});
 	}
 	
@@ -42,7 +44,7 @@ class HomePage extends React.Component {
 				<Navigation navItems={this.state.navItems} />
 				<HeroBanner heroBanner={this.state.heroBanner} />
 				<AboutMe aboutMe={this.state.aboutMe} />
-				<MyWorks myWorks={this.state.myWorks} />
+				<MyWorks myWorks={this.state.myWorks} webWorks={this.state.webWorks} />
 				<ContactMe contactMe={this.state.contactMe} />
 			</section>
 		);
