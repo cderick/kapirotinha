@@ -132,29 +132,6 @@ class PopupContent extends React.Component {
                                                     </div>
                                                 </div>
                                             )}
-                                        {cv.featurePages &&
-                                        <div className="row mt-4 pb-5" style={{ backgroundColor: `${cv.featurePages.background ? cv.featurePages.background : '#fff'}` }}>
-                                            <div className="col">
-                                                <h2 className="mb-5 mt-5 text-center h1">{cv.featurePages.mainTitle}</h2>
-                                                <img src={require(`../../../../../static/${cv.featurePages.images[0].src}`)} className={s.resizeImage} />
-                                            </div>
-                                        </div>}
-                                        {cv.layout &&
-                                        <div className="row mt-4 pb-5" style={{ backgroundColor: `${cv.layout.background ? cv.layout.background : '#fff'}` }}>
-                                            <div className="col">
-                                                <h2 className="mb-5 mt-5 text-center h1">{cv.layout.mainTitle}</h2>
-                                                <img src={require(`../../../../../static/${cv.layout.images[0].src}`)} className={s.resizeImage} />
-                                            </div>
-                                        </div>
-                                        }
-                                        {cv.spacing &&
-                                        <div className="row mt-4 pb-5" style={{ backgroundColor: `${cv.spacing.background ? cv.spacing.background : '#fff'}` }}>
-                                            <div className="col">
-                                                <h2 className="mb-5 mt-5 text-center h1">{cv.spacing.mainTitle}</h2>
-                                                <img src={require(`../../../../../static/${cv.spacing.images[0].src}`)} className={s.resizeImage} />
-                                            </div>
-                                        </div>
-                                        }
                                     </div>
                                 </div>
                             </div>
