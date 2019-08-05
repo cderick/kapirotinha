@@ -49,7 +49,7 @@ class PopupContent extends React.Component {
                         <hr className="mb-3 pb-0" />
                         <h4 className="pb-4">{webWorks.descritpion}</h4>
                         {webWorks.allWorks && webWorks.allWorks.map((cv, ind) =>
-                            <div key={`${cv.workNameId}${ind}`} style={{backgroundImage: `${cv.backgroundCollapse ? require(`../../../../../static/${cv.backgroundCollapse}`) : require('../../../../../static/eventi.png')}`}} className={`${s.mainComponent} mb-5 ${targetCollapse === cv.workNameId && targetOn == 'true' && s.autoHeight}`}>
+                            <div key={`${cv.workNameId}${ind}`} style={{backgroundImage: `${require(`../../../../../static/${cv.backgroundCollapse}`)}`}} className={`${s.mainComponent} mb-5 ${targetCollapse === cv.workNameId && targetOn == 'true' && s.autoHeight}`}>
                                 <div id={cv.workNameId} className={`${s.bottomContainer} ${targetCollapse === cv.workNameId && targetOn == 'true' && s.positionSmooth}`} onClick={(e) => {
                                     const id = e.target.id;
                                     const att = e.target.getAttribute('aria-expanded');

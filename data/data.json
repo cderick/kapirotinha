@@ -147,6 +147,7 @@
         }, {
             "workNameId": "MyHealth",
             "bannerImage": "health_topbanner.png",
+            "backgroundCollapse": "eventi.png",
             "descripton": null,
             "collorPallete": {
                 "mainTitle": "Collor Pallete:",
