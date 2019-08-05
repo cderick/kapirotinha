@@ -49,7 +49,7 @@ class PopupContent extends React.Component {
                         <hr className="mb-3 pb-0" />
                         <h4 className="pb-4">{webWorks.descritpion}</h4>
                         {webWorks.allWorks && webWorks.allWorks.map((cv, ind) =>
-                            <div key={`${cv.workNameId}${ind}`} className={`${s.mainComponent} mb-5 ${targetCollapse === cv.workNameId && targetOn == 'true' && s.autoHeight}`}>
+                            <div key={`${cv.workNameId}${ind}`} style={{backgroundImage: `${cv.backgroundCollapse ? require(`../../../../../static/${cv.backgroundCollapse}`) : require('../../../../../static/eventi.png')}`}} className={`${s.mainComponent} mb-5 ${targetCollapse === cv.workNameId && targetOn == 'true' && s.autoHeight}`}>
                                 <div id={cv.workNameId} className={`${s.bottomContainer} ${targetCollapse === cv.workNameId && targetOn == 'true' && s.positionSmooth}`} onClick={(e) => {
                                     const id = e.target.id;
                                     const att = e.target.getAttribute('aria-expanded');
@@ -57,17 +57,18 @@ class PopupContent extends React.Component {
                                         targetCollapse: id,
                                         targetOn: att
                                     }, () => {
+                                        console.log(this.state.targetCollapse)
                                         setTimeout(() => {
                                             if (this.state.targetOn == 'true') {
                                                 this.scroolHandle(id);
                                             }
                                         }, 400);
                                     });
-                                }} data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                }} data-toggle="collapse" data-target={`#collapse${cv.workNameId}`} aria-expanded="false" aria-controls={`collapse${cv.workNameId}`}>
                                     <h2 className="mb-0 pl-4 float-left">{cv.workNameId}</h2>
                                     <h2 className="mb-0 pr-4 float-right">Click to expand <i className="fas fa-chevron-circle-down"></i></h2>
                                 </div>
-                                <div className="collapse" data-parent="#accordion" id="collapseExample">
+                                <div className="collapse" data-parent="#accordion" id={`collapse${cv.workNameId}`}>
                                     <div className={s.contentPopup}>
                                         <img src={require(`../../../../../static/${cv.bannerImage}`)} className={s.resizeImage} />
                                         <div className="row mt-4">
