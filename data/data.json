@@ -130,27 +130,19 @@
                     "name": ".h6-subtitle"
                 }] 
             },
-            "featurePages": {
+            "bannerSections": [{
                 "background" : "#efefef",
                 "mainTitle": "Features/Pages",
-                "images": [{
-                    "src": "eventi_main_page.png"
-                }]
-            },
-            "layout": {
+                "images": "eventi_main_page.png"
+            }, {
                 "background" : null,
                 "mainTitle": "Layout",
-                "images": [{
-                    "src": "eventi_layout.png"
-                }]
-            },
-            "spacing": {
+                "images": "eventi_layout.png"
+            }, {
                 "background" : "#efefef",
                 "mainTitle": "Spacing",
-                "images": [{
-                    "src": "eventi_spacing.png"
-                }]
-            }
+                "images": "eventi_spacing.png"
+            }]
         }]
     }
 }
