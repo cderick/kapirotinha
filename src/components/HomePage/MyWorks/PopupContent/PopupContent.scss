@@ -22,6 +22,12 @@
         margin-bottom: 0px !important;
         height: 100vh;
         overflow: scroll;
+        .EVENTI {
+            background-image: url('../../../../../static/eventi.png');
+        }
+        .MyHealth {
+            background-image: url('../../../../../static/myhealth.png');
+        }
         .mainComponent {
             height: 200px;
             background-repeat: no-repeat;
