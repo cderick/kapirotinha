@@ -53,13 +53,13 @@ class PopupContent extends React.Component {
     }
 
     render() {
-        const { popUpcontent, webWorks } = this.props;
+        const { popUpcontent, mainWorks } = this.props;
         const { targetCollapse, targetOn } = this.state;
         return (
             <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>
-                {webWorks && webWorks.length &&
+                {mainWorks && mainWorks.length &&
                     <div className={s.popUp} id="accordion">
-                        {webWorks.map((wb, indwb) =>
+                        {mainWorks.map((wb, indwb) =>
                             <section key={`${wb.mainTitle}${indwb}`}>
                                 <a className="close" onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
                                 <h1 className="mb-2">{wb.mainTitle}</h1>

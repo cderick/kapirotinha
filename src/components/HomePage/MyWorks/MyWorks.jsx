@@ -29,7 +29,7 @@ class MyWorks extends React.Component {
 	}
 	
 	render() {
-		const { myWorks, webWorks } = this.props;
+		const { myWorks, mainWorks } = this.props;
 		const { overlayActive } = this.state;
 		return (
 			<div id="myWorks" className={`container-fluid ${s.containerBackground}`}>
@@ -60,7 +60,7 @@ class MyWorks extends React.Component {
 						)}
 					{overlayActive && (
 						<PopupContent
-							webWorks={webWorks}
+							mainWorks={mainWorks}
 							overlayActive={this.state.overlayActive}
 							handlePopupOverlay={this.handlePopupOverlay}
 							popUpcontent={this.state.popUpcontent}
