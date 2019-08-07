@@ -308,7 +308,7 @@
             "bannerSections": [{
                 "background" : "#efefef",
                 "mainTitle": "Prototype",
-                "images": "tattooshare_mobilproto.png"
+                "images": "manga_pages.png"
             }]
         }, {
             "workName": "BOTTO",
@@ -383,7 +383,7 @@
             "bannerSections": [{
                 "background" : "#efefef",
                 "mainTitle": "Prototype",
-                "images": "tattooshare_mobilproto.png"
+                "images": "botto_pages.png"
             }]
         }, {
             "workName": "Tattoo Share",
