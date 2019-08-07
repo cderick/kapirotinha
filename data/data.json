@@ -631,5 +631,578 @@
                 "images": "health_spaces.png"
             }]
         }]
+    }, {
+        "mainTitle": "WEBSITES DUPLICATION TEST",
+        "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+        "allWorks": [{
+            "workName": "Poland trip",
+            "uniQueId": "polandtripsWebWork",
+            "bannerImage": "poltrip_banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Homepage",
+                "images": "polandtrips_main.png"
+            }, {
+                "background" : null,
+                "mainTitle": "All routes",
+                "images": "polandtrips_page2.png"
+            }, {
+                "background" : "#efefef",
+                "mainTitle": "Layout",
+                "images": "poltrip_layout.png"
+            }, {
+                "background" : null,
+                "mainTitle": "Spacing",
+                "images": "polandtrips-spacing.png"
+            }]
+        }, {
+            "workName": "Cantyna",
+            "uniQueId": "cantynaWebWork",
+            "bannerImage": "cantyna_banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Homepage",
+                "images": "cantyna_main_page.png"
+            }, {
+                "background" : null,
+                "mainTitle": "Menu page",
+                "images": "cantyna_menu_page.png"
+            }, {
+                "background" : "#efefef",
+                "mainTitle": "Layout",
+                "images": "cantyna_layouts.png"
+            }, {
+                "background" : null,
+                "mainTitle": "Spacing",
+                "images": "cantyna_spacing.png"
+            }]
+        }, {
+            "workName": "Kakoi Manga",
+            "uniQueId": "mangaWebWork",
+            "bannerImage": "manga_banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Prototype",
+                "images": "manga_pages.png"
+            }]
+        }, {
+            "workName": "BOTTO",
+            "uniQueId": "bottiWebWork",
+            "bannerImage": "botto_banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Prototype",
+                "images": "botto_pages.png"
+            }]
+        }, {
+            "workName": "Tattoo Share",
+            "uniQueId": "tattooshareWebWork",
+            "bannerImage": "tatoo_banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Prototype",
+                "images": "tattooshare_mobilproto.png"
+            }]
+        }, {
+            "workName": "EVENTI",
+            "uniQueId": "eventiWebwork",
+            "bannerImage": "eventi-banner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }],
+                "right": [{
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".my-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Features/Pages",
+                "images": "eventi_main_page.png"
+            }, {
+                "background" : null,
+                "mainTitle": "Layout",
+                "images": "eventi_layout.png"
+            }, {
+                "background" : "#efefef",
+                "mainTitle": "Spacing",
+                "images": "eventi_spacing.png"
+            }]
+        }, {
+            "workName": "My Health",
+            "uniQueId": "myHealthWebwork",
+            "bannerImage": "health_topbanner.png",
+            "descripton": null,
+            "collorPallete": {
+                "mainTitle": "Collor Pallete:",
+                "left": [{
+                    "color": "#FFF000",
+                    "name": ".myhealth-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".myhealth-color-20"
+                }, {
+                    "color": "#FFF0FF",
+                    "name": ".myhealth-color-30"
+                }],
+                "right": [{
+                    "color": "#FF0FFF",
+                    "name": ".myhealth-color-10"
+                }, {
+                    "color": "#FF00FF",
+                    "name": ".myhealth-color-10"
+                }, {
+                    "color": "#000FFF",
+                    "name": ".myhealth-color-10"
+                }]
+            },
+            "typoGraphy": {
+                "mainTitle": "Typography",
+                "description": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.",
+                "left": [{
+                    "type": "H1",
+                    "classes": "h1 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h1-title"
+                }, {
+                    "type": "H2",
+                    "classes": "h2 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "pt-1 mb-0",
+                    "name": ".h2-subtitle"
+                }, {
+                    "type": "H3",
+                    "classes": "h3 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h3-subtitle"
+                }],
+                "right": [{
+                    "type": "H4",
+                    "classes": "h4 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h4-subtitle"
+                }, {
+                    "type": "H5",
+                    "classes": "h5 ml-0 mt-0 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h5-subtitle"
+                }, {
+                    "type": "H6",
+                    "classes": "h6 float-left mr-3",
+                    "size": "Size: 2.5rem",
+                    "sizeClass" : "mb-0",
+                    "name": ".h6-subtitle"
+                }] 
+            },
+            "bannerSections": [{
+                "background" : "#efefef",
+                "mainTitle": "Features / Pages",
+                "images": "health_mainweb.png"
+            }, {
+                "background" : null,
+                "mainTitle": "Banner e Mobile App",
+                "images": "health_mobile.png"
+            }, {
+                "background" : "#efefef",
+                "mainTitle": "Layout",
+                "images": "health_layout.png"
+            }, {
+                "background" : null,
+                "mainTitle": "Spacing",
+                "images": "health_spaces.png"
+            }]
+        }]
     }]
 }

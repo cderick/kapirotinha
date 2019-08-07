@@ -59,10 +59,10 @@ class PopupContent extends React.Component {
             <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>
                 {mainWorks && mainWorks.length &&
                     <div className={s.popUp} id="accordion">
+                        <a className="close" onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
                         {mainWorks.map((wb, indwb) =>
                             <section key={`${wb.mainTitle}${indwb}`}>
-                                <a className="close" onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
-                                <h1 className="mb-2">{wb.mainTitle}</h1>
+                                <h2 className="h1 mb-2">{wb.mainTitle}</h2>
                                 <hr className="mb-3 pb-0" />
                                 <h4 className="pb-4">{wb.descritpion}</h4>
                                 {wb.allWorks && wb.allWorks.map((cv, ind) =>
