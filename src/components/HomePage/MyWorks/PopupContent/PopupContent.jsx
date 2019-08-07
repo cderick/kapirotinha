@@ -64,8 +64,8 @@ class PopupContent extends React.Component {
                         <hr className="mb-3 pb-0" />
                         <h4 className="pb-4">{webWorks.descritpion}</h4>
                         {webWorks.allWorks && webWorks.allWorks.map((cv, ind) =>
-                            <div key={`${cv.workNameId}${ind}`} className={`${s.mainComponent} ${s[cv.workNameId]} mb-5 ${targetCollapse === cv.workNameId && targetOn == 'true' && s.autoHeight}`}>
-                                <div id={cv.workNameId} className={`${s.bottomContainer} ${targetCollapse === cv.workNameId && targetOn == 'true' && s.positionSmooth}`} onClick={(e) => {
+                            <div key={`${cv.uniQueId}${ind}`} className={`${s.mainComponent} ${s[cv.uniQueId]} mb-5 ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.autoHeight}`}>
+                                <div id={cv.uniQueId} className={`${s.bottomContainer} ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.positionSmooth}`} onClick={(e) => {
                                     const id = e.target.id;
                                     const att = e.target.getAttribute('aria-expanded');
                                     this.setState({
@@ -79,11 +79,11 @@ class PopupContent extends React.Component {
                                             }
                                         }, 400);
                                     });
-                                }} data-toggle="collapse" data-target={`#collapse${cv.workNameId}`} aria-expanded="false" aria-controls={`collapse${cv.workNameId}`}>
-                                    <h2 className="mb-0 pl-4 float-left">{cv.workNameId}</h2>
+                                }} data-toggle="collapse" data-target={`#collapse${cv.uniQueId}`} aria-expanded="false" aria-controls={`collapse${cv.uniQueId}`}>
+                                    <h2 className="mb-0 pl-4 float-left">{cv.workName}</h2>
                                     <h2 className="mb-0 pr-4 float-right">Click to expand <i className="fas fa-chevron-circle-down"></i></h2>
                                 </div>
-                                <div className="collapse" data-parent="#accordion" id={`collapse${cv.workNameId}`}>
+                                <div className="collapse" data-parent="#accordion" id={`collapse${cv.uniQueId}`}>
                                     <div className={s.contentPopup}>
                                         <img src={require(`../../../../../static/${cv.bannerImage}`)} className={s.resizeImage} />
                                         <div className="row mt-4">
