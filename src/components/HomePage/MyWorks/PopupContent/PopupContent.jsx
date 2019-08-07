@@ -63,8 +63,8 @@ class PopupContent extends React.Component {
                         {mainWorks.map((wb, indwb) =>
                             <section key={`${wb.mainTitle}${indwb}`}>
                                 <h2 className={`h1 mb-2 ${wb.classTitle && wb.classTitle}`}>{wb.mainTitle}</h2>
-                                <hr className="mb-3 pb-0" />
-                                <h4 className="pb-4">{wb.descritpion}</h4>
+                                <hr className={`mb-3 pb-0 ${wb.rightHr && s.rightHr}`} />
+                                <h4 className={`pb-4 ${wb.classDescrip && wb.classDescrip}`}>{wb.descritpion}</h4>
                                 {wb.allWorks && wb.allWorks.map((cv, ind) =>
                                     <div key={`${cv.uniQueId}${ind}`} className={`${s.mainComponent} ${s[cv.uniQueId]} mb-5 ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.autoHeight}`}>
                                         <div id={cv.uniQueId} className={`${s.bottomContainer} ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.positionSmooth}`} onClick={(e) => {

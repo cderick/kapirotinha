@@ -408,8 +408,10 @@
         }]
     }, {
         "mainTitle": "Apps",
-        "classTitle": "text-left",
+        "classTitle": "text-right",
         "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+        "classDescrip": "text-right",
+        "rightHr": true,
         "allWorks": [{
             "workName": "Kakoi Manga",
             "uniQueId": "mangaWebWork",
