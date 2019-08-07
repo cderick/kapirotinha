@@ -11,6 +11,21 @@ class PopupContent extends React.Component {
             targetOn: undefined,
         }
         this.cumulativeOffset = this.cumulativeOffset.bind(this);
+        this.escFunction = this.escFunction.bind(this);
+    }
+
+    escFunction(event){
+        if(event.keyCode === 27) {
+            this.props.handlePopupOverlay()
+        }
+    }
+
+    componentDidMount(){
+        document.addEventListener('keydown', this.escFunction, false);
+    }
+    
+    componentWillUnmount(){
+        document.removeEventListener('keydown', this.escFunction, false);
     }
 
     cumulativeOffset(element) {
@@ -32,7 +47,7 @@ class PopupContent extends React.Component {
         const accordIon = document.querySelector('#accordion');
         const correctOffset = this.cumulativeOffset(myElement);
         accordIon.scrollTo({
-            top: correctOffset.top,
+            top: correctOffset.top - 80,
             behavior: 'smooth',
         });
     }
