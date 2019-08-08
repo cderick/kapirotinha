@@ -90,6 +90,25 @@
     }
 }
 
+@media (max-width: 756px) {
+    .popUp {
+        margin: 20px 0 0 !important;
+        .mainComponent {
+            background-size: cover !important;
+        }
+        .hrLeft {
+            margin: 0 0 20px !important;
+        }
+    }
+    .h4Small {
+        font-size: 1.0rem;
+    }
+    .h2Small {
+        font-size: 1.0rem !important;
+        padding: 20px !important;
+    }
+}
+
 .contentPopup {
     margin-bottom: 9%;
 }
