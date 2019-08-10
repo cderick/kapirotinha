@@ -49,7 +49,7 @@ class MyWorks extends React.Component {
 										this.handlePopupOverlay();
 									});
 								}}>
-									<img className={s.imgResize} src={cv.target === 'web' ? webProtos : artWorks} />
+									<img className={s.imgResize} alt={cv.target === 'web' ? webProtos : artWorks} src={cv.target === 'web' ? webProtos : artWorks} />
 									<div className="p-4 overflow-hidden">
 										<h2 className="h2 pb-3">{cv.cardTitle && cv.cardTitle}</h2>
 										<p>{cv.cardDescrip}</p>

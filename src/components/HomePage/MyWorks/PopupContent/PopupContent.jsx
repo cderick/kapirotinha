@@ -87,9 +87,9 @@ class PopupContent extends React.Component {
                                         </div>
                                         <div className="collapse" data-parent="#accordion" id={`collapse${cv.uniQueId}`}>
                                             <div className={s.contentPopup}>
-                                                <img src={require(`../../../../../static/${cv.bannerImage}`)} className={s.resizeImage} />
+                                                <img src={require(`../../../../../static/${cv.bannerImage}`)} alt={cv.bannerImage} className={s.resizeImage} />
                                                 <div className="row mt-4">
-                                                    <div className="col">
+                                                    <div className="col" style={cv.styleColPallete}>
                                                         <h2 className="text-center">{cv.collorPallete.mainTitle}</h2>
                                                         <div className="row">
                                                             <div className="col pt-4">
@@ -114,7 +114,7 @@ class PopupContent extends React.Component {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col">
+                                                    <div className="col" style={cv.styleColTypography}>
                                                         <h2 className="text-center">{cv.typoGraphy.mainTitle}</h2>
                                                         <p className="pt-4">{cv.typoGraphy.description}</p>
                                                         <div className="row">
@@ -146,7 +146,7 @@ class PopupContent extends React.Component {
                                                         <div key={`${bs.mainTitle}${indbs}`} className="row mt-4 pb-5" style={{ backgroundColor: `${bs.background ? bs.background : '#fff'}` }}>
                                                             <div className="col">
                                                                 <h2 className="mb-5 mt-5 text-center h1">{bs.mainTitle}</h2>
-                                                                <img src={require(`../../../../../static/${bs.images}`)} className={s.resizeImage} />
+                                                                <img src={require(`../../../../../static/${bs.images}`)} alt={bs.images} className={s.resizeImage} />
                                                             </div>
                                                         </div>
                                                     )}

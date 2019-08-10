@@ -66,6 +66,14 @@
             "uniQueId": "interactiveHouseWebwork",
             "bannerImage": "planning_banner.png",
             "descripton": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+            "styleColPallete": {
+                "background-color": "#d6d4d4",
+                "border-radius": "12px",
+                "padding": "20px"
+            },
+            "styleColTypography": {
+                "padding": "20px"
+            },
             "collorPallete": {
                 "mainTitle": "Collor Pallete:",
                 "left": [{
