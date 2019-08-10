@@ -74,7 +74,6 @@ class PopupContent extends React.Component {
                                                 targetCollapse: id,
                                                 targetOn: att
                                             }, () => {
-                                                console.log(this.state.targetCollapse)
                                                 setTimeout(() => {
                                                     if (this.state.targetOn == 'true') {
                                                         this.scroolHandle(id);
@@ -85,6 +84,10 @@ class PopupContent extends React.Component {
                                             <h2 className={`mb-0 ${s.h2Small} pl-4 float-left`}>{cv.workName}</h2>
                                             <h2 className={`mb-0 ${s.h2Small} pr-4 float-right`}>Click to expand <i className="fas fa-chevron-circle-down"></i></h2>
                                         </div>
+                                        {cv.wNdescription &&
+                                        <div style={cv.wNColStyle}>
+                                            <p className="h4">{cv.wNdescription}</p>
+                                        </div>}
                                         <div className="collapse" data-parent="#accordion" id={`collapse${cv.uniQueId}`}>
                                             <div className={s.contentPopup}>
                                                 <img src={require(`../../../../../static/${cv.bannerImage}`)} alt={cv.bannerImage} className={s.resizeImage} />
