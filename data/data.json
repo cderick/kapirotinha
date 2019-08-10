@@ -65,18 +65,18 @@
             "workName": "Interactive House",
             "uniQueId": "interactiveHouseWebwork",
             "bannerImage": "planning_banner.png",
-            "wNdescription": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+            "wNdescription": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
             "wNColStyle": {
-                "background-color": "#393a3a",
+                "backgroundColor": "#393a3a",
                 "color": "white",
-                "padding": "20px"
+                "padding": "30px"
             },
             "styleColPallete": {
                 "padding": "20px"
             },
             "styleColTypography": {
-                "background-color": "#d6d4d4",
-                "border-radius": "12px",
+                "backgroundColor": "#d6d4d4",
+                "borderRadius": "12px",
                 "padding": "20px"
             },
             "collorPallete": {

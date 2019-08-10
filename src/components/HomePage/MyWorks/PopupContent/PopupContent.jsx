@@ -84,13 +84,15 @@ class PopupContent extends React.Component {
                                             <h2 className={`mb-0 ${s.h2Small} pl-4 float-left`}>{cv.workName}</h2>
                                             <h2 className={`mb-0 ${s.h2Small} pr-4 float-right`}>Click to expand <i className="fas fa-chevron-circle-down"></i></h2>
                                         </div>
-                                        {cv.wNdescription &&
-                                        <div style={cv.wNColStyle}>
-                                            <p className="h4">{cv.wNdescription}</p>
-                                        </div>}
                                         <div className="collapse" data-parent="#accordion" id={`collapse${cv.uniQueId}`}>
                                             <div className={s.contentPopup}>
                                                 <img src={require(`../../../../../static/${cv.bannerImage}`)} alt={cv.bannerImage} className={s.resizeImage} />
+                                                {cv.wNdescription &&
+                                                <div className="row mt-4">
+                                                    <div style={cv.wNColStyle}>
+                                                        <p>{cv.wNdescription}</p>
+                                                    </div>
+                                                </div>}
                                                 <div className="row mt-4">
                                                     <div className="col" style={cv.styleColPallete}>
                                                         <h2 className="text-center">{cv.collorPallete.mainTitle}</h2>
