@@ -68,21 +68,21 @@ class PopupContent extends React.Component {
                                 {wb.allWorks && wb.allWorks.map((cv, ind) =>
                                     <div key={`${cv.uniQueId}${ind}`} className={`${s.mainComponent} ${s[cv.uniQueId]} mb-5 ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.autoHeight}`}>
                                         <div id={cv.uniQueId} className={`${s.bottomContainer} ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.positionSmooth}`} onClick={(e) => {
-                                            const id = e.target.id;
-                                            const att = e.target.getAttribute('aria-expanded');
+                                            const getClickedDiv = document.querySelector(`#${cv.uniQueId}`);
+                                            const att = getClickedDiv.getAttribute('aria-expanded');
                                             this.setState({
-                                                targetCollapse: id,
+                                                targetCollapse: cv.uniQueId,
                                                 targetOn: att
-                                            }, () => {
+                                            }, () => {      
                                                 setTimeout(() => {
                                                     if (this.state.targetOn == 'true') {
-                                                        this.scroolHandle(id);
+                                                        this.scroolHandle(cv.uniQueId);
                                                     }
                                                 }, 400);
                                             });
                                         }} data-toggle="collapse" data-target={`#collapse${cv.uniQueId}`} aria-expanded="false" aria-controls={`collapse${cv.uniQueId}`}>
                                             <h2 className={`mb-0 ${s.h2Small} pl-4 float-left`}>{cv.workName}</h2>
-                                            <h2 className={`mb-0 ${s.h2Small} pr-4 float-right`}>Click to expand <i className="fas fa-chevron-circle-down"></i></h2>
+                                            <h2 className={`mb-0 ${s.h2Small} pr-4 float-right`}>Expand <i className="fas fa-chevron-circle-down"></i></h2>
                                         </div>
                                         <div className="collapse" data-parent="#accordion" id={`collapse${cv.uniQueId}`}>
                                             <div className={s.contentPopup}>

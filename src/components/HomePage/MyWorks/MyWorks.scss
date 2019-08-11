@@ -10,7 +10,7 @@
 	.myCard {
 		text-align: left;
 		border: 1px solid #000;
-		min-height: 60vh;
+		height: auto;
 		cursor: pointer;
 		.imgResize {
 			width: 100%;
@@ -29,7 +29,15 @@
 	}
 }
 
-@media (max-width: 756px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+	.myCard {
+		h2 {
+			font-size: 1.9rem !important;
+		}
+	}	
+}
+
+@media (max-width: 767px) {
 	.containerBackground {
 		h3 {
 			font-size: 1.4rem !important;

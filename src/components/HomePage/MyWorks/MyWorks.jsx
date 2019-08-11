@@ -13,6 +13,7 @@ class MyWorks extends React.Component {
 			popUpcontent: undefined,
 		}
 		this.handlePopupOverlay = this.handlePopupOverlay.bind(this);
+		this.equalHeights = this.equalHeights.bind(this);
 	}
 
 	handlePopupOverlay() {
@@ -20,14 +21,40 @@ class MyWorks extends React.Component {
 			overlayActive: !this.state.overlayActive,
 		}, () => {
 			const body = document.querySelector('body');
-			if(this.state.overlayActive){
-				body.style.overflow = "hidden";
+			if (this.state.overlayActive) {
+				body.style.overflow = 'hidden';
 			} else {
-				body.style.overflow = "inherit";
+				body.style.overflow = 'inherit';
 			}
 		});
 	}
-	
+
+	componentWillUnmount(){
+		window.removeEventListener('resize', this.equalHeights);	
+	}
+
+	componentDidMount() {
+		if (window.outerWidth && window.outerWidth > 499) {
+			window.addEventListener('resize', this.equalHeights);
+			setTimeout(() => {
+				this.equalHeights();
+			}, 600);
+		}
+	}
+
+	equalHeights() {
+		let findClass = document.getElementsByClassName('overflow-hidden');
+		let tallest = 0;
+		for (let i = 0; i < findClass.length; i++) {
+			const ele = findClass[i];
+			const eleHeight = ele.offsetHeight;
+			tallest = (eleHeight > tallest ? eleHeight : tallest);
+		}
+		for (let i = 0; i < findClass.length; i++) {
+			findClass[i].style.height = `${tallest}px`;
+		}
+	}
+
 	render() {
 		const { myWorks, mainWorks } = this.props;
 		const { overlayActive } = this.state;

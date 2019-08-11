@@ -52,18 +52,18 @@
         .mainComponent {
             height: 200px;
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
             position: relative;
             .bottomContainer {
                 height: 60px;
                 position: absolute;
                 bottom: 0px;
                 width: 100%;
-                background: rgba(0,0,0,0.6);
+                background: rgba(255,255,255,0.7);
                 cursor: pointer;
                 h2 {
                     padding: 11px;
-                    color: white;
+                    color: black;
                 }
             }
             .positionSmooth {
@@ -93,7 +93,7 @@
     }
 }
 
-@media (max-width: 756px) {
+@media (max-width: 767px) {
     .popUp {
         margin: 20px 0 0 !important;
         .mainComponent {
@@ -113,6 +113,7 @@
 }
 
 .contentPopup {
+    background-color: white;
     margin-bottom: 9%;
 }
 

@@ -1,9 +1,15 @@
+@function get-vw($target) { 
+	//$vw-context: ;
+	@return $target;
+}
+
 .containerBackground {
 	background-image: url('../../../../static/hero.png');
 	background-position: top right;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 80vh;
+	max-height: get-vw(800px);
 	h2 {
 		color: white;
 	}
@@ -23,7 +29,19 @@
 		margin: 0;
 	}
 }
-@media screen and (max-width: 756px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+	.containerBackground {
+		height: 30vh;
+		h2 {
+			font-size: 1.9rem !important;
+		}
+		h3 {
+			font-size: 1.3rem !important;
+		}
+	}
+
+}
+@media screen and (max-width: 767px) {
 	.containerBackground {
 		background-image: none;
 		background: linear-gradient(#023136 70%, white 30%) !important;

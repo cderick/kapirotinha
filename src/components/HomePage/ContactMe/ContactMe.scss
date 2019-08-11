@@ -24,7 +24,13 @@
 	}
 }
 
-@media (max-width: 756px) { 
+@media (min-width: 768px) and (max-width: 1024px) {
+	.containerBackground {
+		height: 27vh;
+	}
+}
+
+@media (max-width: 767px) { 
 	.containerBackground {
 		height: auto !important;
 	}
