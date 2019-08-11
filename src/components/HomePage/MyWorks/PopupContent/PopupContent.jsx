@@ -38,7 +38,7 @@ class PopupContent extends React.Component {
                         Comming soon..
                     </div>
                     ) : (
-                    <WebContent mainWorks={mainWorks}/>
+                    <WebContent handlePopupOverlay={this.props.handlePopupOverlay} mainWorks={mainWorks}/>
                 )}
             </section>
         )
