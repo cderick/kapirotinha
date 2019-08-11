@@ -35,6 +35,7 @@ class PopupContent extends React.Component {
             <section>
                 {popUpcontent === 'fashion' ? (
                     <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>
+                        <a className="close" onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
                         Comming soon..
                     </div>
                     ) : (
