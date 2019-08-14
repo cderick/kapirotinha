@@ -16,6 +16,19 @@
 		width:	80%;
 		margin: 0;
 	}
+	.contactmeLinks {
+		color: white;
+		text-decoration: none !important;
+		&:hover {
+			color: #bfbfbf;
+			text-decoration: none !important;
+		}
+	}
+	.iconHover{
+		&:hover {
+			color: #bfbfbf !important;
+		}
+	}
 	.rightHr {
 		float: right;
 	}
