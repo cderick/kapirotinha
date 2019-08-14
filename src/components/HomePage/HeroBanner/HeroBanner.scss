@@ -46,6 +46,17 @@
 
 }
 
+//Pixel 2XL 823
+//Iphone X 812
+//Ipad??
+
+@media only screen and (max-width: 767px)  
+                   and (orientation: landscape) {
+					.containerBackground {
+						height: 75vh !important;
+					}
+}
+
 @media (max-width: 767px) {
 	.containerBackground {
 		height: 50vh;
@@ -60,5 +71,6 @@
 	h2 {
 		font-size: 1.5rem !important;
 	}
+	
 }
 

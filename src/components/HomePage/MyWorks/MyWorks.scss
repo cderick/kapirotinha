@@ -18,13 +18,19 @@
 			opacity: 0.8;
 		}
 		.fakeButton {
-			border: solid 1px #000;
+			border: solid 1px #0b434e;
+			color: white;
+			background-color: #0b434e;
 			border-radius: 9px;
 			padding: 10px;
 			text-align: center;
 			font-size: 1.5rem;
 			width: 200px;
 			float: right;
+			&:hover {
+				border: solid 1px #00191E;
+				background-color: #00191E;
+			}
 		}
 	}
 }

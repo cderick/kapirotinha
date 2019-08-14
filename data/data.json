@@ -15,38 +15,38 @@
         "classes": null,
         "id": "mywork"
     }, {
-        "title": "About",
+        "title": "About me",
         "target": "aboutMe",
         "classes": null,
         "id": "about"
     }],
     "heroBanner" : {
         "title": "ALEKSANDRA SPADLO",
-        "subTitle": "Graphic Design Portfolio"
+        "subTitle": "Creative Design Portfolio"
     },
     "aboutMe": {
-        "title": "Who is Aleksandra Spadlo",
+        "title": "Who is Aleksandra Spadlo?",
         "subTitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
     },
     "myWorks": {
         "title": "My works",
         "cards": [{
             "target": "web",
-            "cardTitle": "WEBSITES / PROTOTYPES",
+            "cardTitle": "Web/App UI Design & Prototypes",
             "buttonDescrip": "Take a look",
             "cardDescrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet"
         }, {
             "target": "fashion",
-            "cardTitle": "ARTWORKS / BANNERS / CAD DESIGN",
+            "cardTitle": "Art Design",
             "buttonDescrip": "Take a look",
             "cardDescrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet"
         }]
     },
     "contactMe": {
-        "title": "Contact",
-        "phoneNumer": "Phone: 00009987890",
-        "emailAddress": "Email: asdasds@sadasa.com",
-        "socialTitle": "Follow",
+        "title": "Contact me",
+        "phoneNumer": "+44 7403 681619",
+        "emailAddress": "alexspadlo@gmail.com",
+        "socialTitle": "Follow me",
         "socialNetwork": [{
             "url": "https://www.linkedin.com/in/alexandra-spadlo/",
             "icon": "fab fa-linkedin"
@@ -59,7 +59,7 @@
         }]
     },
     "mainWorks": [{
-        "mainTitle": "WEBSITES",
+        "mainTitle": "Web UI Design & Prototypes",
         "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
         "allWorks": [{
             "workName": "Interactive House",
@@ -498,7 +498,7 @@
             }]
         }]
     }, {
-        "mainTitle": "Apps",
+        "mainTitle": "App UI Design & Prototypes",
         "classTitle": "text-right",
         "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
         "classDescrip": "text-right mt-4",

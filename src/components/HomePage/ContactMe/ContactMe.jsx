@@ -15,8 +15,8 @@ class ContactMe extends React.Component {
 					<div className={`${s.paddingNoneSm} col my-auto text-center pl-0`}>
 						<h2 className="h1 mb-3">{contactMe && contactMe.title && contactMe.title}</h2>
 						<hr />
-						<h3 className="h4 mt-3">{contactMe && contactMe.phoneNumer && contactMe.phoneNumer}</h3>
-						<h3 className="h4">{contactMe && contactMe.emailAddress && contactMe.emailAddress}</h3>
+						<h3 className="h4 mt-3"><i className="fas fa-phone"></i> &nbsp; {contactMe && contactMe.phoneNumer && contactMe.phoneNumer}</h3>
+						<h3 className="h4"><i className="fas fa-envelope-open-text"></i> &nbsp; {contactMe && contactMe.emailAddress && contactMe.emailAddress}</h3>
 					</div>
 					<div className={`${s.paddingNoneSm} col my-auto text-center pr-0`}>
 						<h2 className="h1 mb-3">{contactMe && contactMe.socialTitle && contactMe.socialTitle}</h2>

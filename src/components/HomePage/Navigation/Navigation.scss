@@ -8,9 +8,6 @@ $background_color_greylighter: #ddd;
 	font-family: 'Stardos Stencil', cursive !important;
 	font-weight: bold;
 }
-.menuBurguer {
-	display: none;
-}
 .topnav {
 	background-color: $background_color_grey333;
 	overflow: hidden;
@@ -59,14 +56,5 @@ $background_color_greylighter: #ddd;
 		a {
 			font-size: 15px;
 		}
-	}
-	.menuBurguer {
-		display: block !important;
-		color: #fff;
-		width: 40px;
-		padding: 15px;
-		margin-right: 22px;
-		float: right;
-		cursor: pointer;
 	}
 }

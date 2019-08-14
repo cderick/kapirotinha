@@ -15,7 +15,7 @@ class HeroBanner extends React.Component {
 					<div className="col my-auto text-center">
 						<h1 className="display-4">{heroBanner && heroBanner.title ? heroBanner.title : ''}</h1>
 						<hr />
-						<h2 className="display-5">{heroBanner && heroBanner.subTitle ? heroBanner.subTitle : ''}</h2>
+						<h2 className="display-5 mb-0">{heroBanner && heroBanner.subTitle ? heroBanner.subTitle : ''}</h2>
 					</div>
 				</div>
 			</div>
