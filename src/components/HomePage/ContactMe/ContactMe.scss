@@ -37,6 +37,13 @@
 	}
 }
 
+@media only screen and (max-width: 823px)  
+                   and (orientation: landscape) {
+	.containerBackground {
+		height: 70vh !important;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
 	.containerBackground {
 		height: 27vh;
