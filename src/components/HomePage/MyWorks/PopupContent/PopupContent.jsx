@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import s from './PopupContent.scss';
 import WebContent from './WebContent/WebContent';
+import ArtContent from './ArtContent/ArtContent';
 
 class PopupContent extends React.Component {
     constructor(props) {
@@ -34,10 +35,7 @@ class PopupContent extends React.Component {
         return (
             <section>
                 {popUpcontent === 'fashion' ? (
-                    <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>
-                        <a className="close" onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
-                        Comming soon..
-                    </div>
+                    <ArtContent handlePopupOverlay={this.props.handlePopupOverlay} mainWorks={mainWorks}/>
                     ) : (
                     <WebContent handlePopupOverlay={this.props.handlePopupOverlay} mainWorks={mainWorks}/>
                 )}

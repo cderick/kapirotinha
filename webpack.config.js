@@ -61,6 +61,8 @@ const common = {
 			'process.env.NODE_ENV': JSON.stringify(env.NODE_ENV) 
 		}),
 		new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
             _: 'lodash',
         }),
 		new HtmlWebpackPlugin()
