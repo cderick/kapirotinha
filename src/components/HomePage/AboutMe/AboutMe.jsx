@@ -16,7 +16,7 @@ class AboutMe extends React.Component {
 					<div className="col my-auto p-0 text-center">
 						<h2 className="h1 mb-4">{aboutMe && aboutMe.title && aboutMe.title}</h2>
 						<hr />
-						<h3 className="h4 pl-5 pr-5 mt-2">{aboutMe && aboutMe.subTitle && aboutMe.subTitle}</h3>
+						<div className="text-white pl-5 pr-5 mt-2">{aboutMe && aboutMe.subTitle && aboutMe.subTitle}</div>
 					</div>
 					<div className="col my-auto text-center">
 						<img className="rounded-circle" alt={heroSmall} src={heroSmall} />
