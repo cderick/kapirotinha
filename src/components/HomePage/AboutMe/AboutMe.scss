@@ -68,13 +68,13 @@
 @media screen and (max-width: 767px) {
 	.containerBackground {
 		background-image: none;
-		background: linear-gradient(#023136 70%, white 30%) !important;
+		background: linear-gradient(#023136 85%, white 15%) !important;
 		color: white;
 		height: auto;
 		padding-bottom: 10px;
 		padding-top: 10px;
-		h3 {
-			padding-bottom: 20px;
+		p {
+			text-align: left !important;
 		}
 		img {
 			display: block;	

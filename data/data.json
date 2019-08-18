@@ -58,6 +58,52 @@
             "icon": "fab fa-behance-square"
         }]
     },
+    "artWorks": [{
+        "title": "Artworks",
+        "images": [{
+            "data": "art1.jpg"
+        }, {
+            "data": "art2.jpg"
+        }, {
+            "data": "art3.jpg"
+        }]
+    }, {
+        "title": "Banners",
+        "images": [{
+            "data": "art1.jpg"
+        }, {
+            "data": "art2.jpg"
+        }, {
+            "data": "art3.jpg"
+        }]
+    }, {
+        "title": "Fashion",
+        "images": [{
+            "data": "art1.jpg"
+        }, {
+            "data": "art2.jpg"
+        }, {
+            "data": "art3.jpg"
+        }]
+    }, {
+        "title": "Logos",
+        "images": [{
+            "data": "art1.jpg"
+        }, {
+            "data": "art2.jpg"
+        }, {
+            "data": "art3.jpg"
+        }]
+    }, {
+        "title": "Posters",
+        "images": [{
+            "data": "art1.jpg"
+        }, {
+            "data": "art2.jpg"
+        }, {
+            "data": "art3.jpg"
+        }]
+    }],
     "mainWorks": [{
         "mainTitle": "Web UI Design & Prototypes",
         "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",

@@ -24,7 +24,7 @@ class MyWorks extends React.Component {
 			if (this.state.overlayActive) {
 				body.style.overflow = 'hidden';
 			} else {
-				body.style.overflow = 'inherit';
+				body.style.overflow = 'initial';
 			}
 		});
 	}
