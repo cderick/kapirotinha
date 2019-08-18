@@ -88,6 +88,7 @@ class MyWorks extends React.Component {
 					{overlayActive && (
 						<PopupContent
 							mainWorks={mainWorks}
+							artWorks={this.props.artWorks}
 							overlayActive={this.state.overlayActive}
 							handlePopupOverlay={this.handlePopupOverlay}
 							popUpcontent={this.state.popUpcontent}

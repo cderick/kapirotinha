@@ -31,11 +31,11 @@ class PopupContent extends React.Component {
 
 
     render() {
-        const { popUpcontent, mainWorks } = this.props;
+        const { popUpcontent, mainWorks, artWorks } = this.props;
         return (
             <section>
                 {popUpcontent === 'fashion' ? (
-                    <ArtContent handlePopupOverlay={this.props.handlePopupOverlay} mainWorks={mainWorks}/>
+                    <ArtContent handlePopupOverlay={this.props.handlePopupOverlay} artWorks={artWorks}/>
                     ) : (
                     <WebContent handlePopupOverlay={this.props.handlePopupOverlay} mainWorks={mainWorks}/>
                 )}
