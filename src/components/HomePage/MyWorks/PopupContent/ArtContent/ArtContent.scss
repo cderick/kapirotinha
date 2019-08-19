@@ -23,6 +23,8 @@
         width: 100%;
         .panelBackground {
             background-image: url('../../../../../../static/panel_background.png');
+            background-repeat: no-repeat;
+            background-size: cover;
             .tabsLeft {
                 width: 100%;
                 li {
@@ -51,6 +53,15 @@
                     border-radius: 0px;
                     margin: 0px;
                 }
+            }
+        }
+        .mobileOnly {
+            display: none;
+            .myCloseMobile {
+                display: none;
+            }
+            .titleMobile {
+                display: none;
             }
         }
     }
@@ -144,9 +155,80 @@ hr {
     margin: 5% 0 7%;
 }*/
 
+@media (min-width: 768px) and (max-width: 823px) {
+    .panelBackground{
+        min-height: 400px !important;
+    }
+    .removeMobile {
+        min-height: 400px !important
+    }
+}
 
+@media (max-width: 767px) {
+    .popUpOverlay{
+        .popUp{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            .mobileOnly {
+                display: block;
+                .myCloseMobile {
+                    display: block;
+                    z-index: 9999999999999;
+                    position: relative;
+                    color: black;
+                    text-decoration: none;
+                    font-size: 200%;
+                    top: 12px;
+                    right: 10px;
+                    border: solid 1px #000;
+                    border-radius: 40px;
+                    padding: 3px 10px;
+                    opacity: 0.8;
+                }
+                .titleMobile {
+                    display: block;
+                }
+            }
+            .panelBackground{
+                display: none !important;
+            }
+            .removeMobile {
+                display: none !important;
+            }
+        }
+        .myClose {
+            display: none !important;
+        }
+    }
+    .carouselSpec {
+        padding: 0 !important;
+    }
+    .controlLeft {
+        background-image: url('../../../../../../static/carousel-arrow-left.png') !important;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .controlRight {
+        background-image: url('../../../../../../static/carousel-arrow-right.png') !important;
+        width: 30px;
+        height: 30px;
+    }
+    .carouseControl {
+        position: absolute;
+        top: 45%;
+        z-index: 5;
+        display: inline-block;
+        &.carouselNext {
+            right: 0;
+        }
+        &.carouselPrev {
+            left: 0;
+        }
+    }
+}
 
-  
   
   
   

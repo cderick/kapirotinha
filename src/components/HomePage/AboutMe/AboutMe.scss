@@ -1,7 +1,7 @@
 .containerBackground {
 	background-image: url('../../../../static/hero.png');
-	background-position: top right;
-	background-size: 100%;
+	background-position: 73% -1px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 65vh;
 	h2 {
@@ -27,45 +27,13 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
 	.containerBackground {
 		height: 50vh;
+		background-size: cover;
+		background-position: 62%;
 	}
 }
 
-@media only screen and (min-width: 999px)
-				   and (max-width: 1024px)
-				   and (max-height: 768px)  
-                   and (orientation: landscape) {
-	.containerBackground {
-		height: 50vh !important;
-	}
-}
 
-@media only screen and (min-width: 800px)
-				   and (max-width: 823px)  
-                   and (orientation: landscape) {
-	.containerBackground {
-		height: 85vh !important;
-		h2 {
-			font-size: 1.9rem !important;
-		}
-		h3 {
-			font-size: 1.3rem !important;
-		}
-	}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-	.containerBackground {
-		height: 30vh;
-		h2 {
-			font-size: 1.9rem !important;
-		}
-		h3 {
-			font-size: 1.3rem !important;
-		}
-	}
-
-}
-@media screen and (max-width: 767px) {
+@media (max-width: 1024px) {
 	.containerBackground {
 		background-image: none;
 		background: linear-gradient(#023136 85%, white 15%) !important;
@@ -82,6 +50,10 @@
 			margin: 0 auto;
 			height: auto;
 			border: solid 3px #0a444e;
+		}
+		h2 {
+			font-size: 1.9rem !important;
+			padding-top: 20px;
 		}
 	}
 	.clearDisplay {
