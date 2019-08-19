@@ -9,6 +9,7 @@ class ArtContent extends React.Component {
             activeList: 'li0',
         }
         this.handleClick = this.handleClick.bind(this);
+        this.equalHeights = this.equalHeights.bind(this);
     }
 
     handleClick(e){
@@ -27,8 +28,24 @@ class ArtContent extends React.Component {
         }
     }
 
+    equalHeights() {
+		let findClass = document.getElementsByClassName('equalHeights');
+		let tallest = 0;
+		for (let i = 0; i < findClass.length; i++) {
+			const ele = findClass[i];
+			const eleHeight = ele.offsetHeight;
+			tallest = (eleHeight > tallest ? eleHeight : tallest);
+		}
+		for (let i = 0; i < findClass.length; i++) {
+			findClass[i].style.height = `${tallest}px`;
+		}
+	}
+
     componentDidMount() {
         $('.carousel').carousel();
+        setTimeout(() => {
+            this.equalHeights();
+        }, 500);
     }
 
     render() {
@@ -39,19 +56,19 @@ class ArtContent extends React.Component {
                 <a className={`close ${s.myClose}`} onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
                 <div className={s.popUp}>
                     <div className="row h-100">
-                        <div className={`col-3 p-0 h-100 ${s.panelBackground}`}>
+                        <div className={`col-3 p-0 equalHeights ${s.panelBackground}`}>
                             <ul className={`nav ${s.tabsLeft} sideways`}>
                                 {artWorks && artWorks.length && artWorks.map((cv, ind) => (
                                     <li id={`li${ind}`} key={`artWork${ind}`} onClick={(e) => this.handleClick(e)} className={activeList === `li${ind}` ? s.active : ''}><a href={`#${cv.title}`} data-toggle="tab">{cv.title}</a></li>
                                 ))}
                             </ul>
                         </div>
-                        <div className="col-9">
+                        <div className="col-9 equalHeights">
                             <div className="tab-content p-5">
                                 {artWorks && artWorks.length && artWorks.map((av, ix) => (
                                 <div key={`imagesArt${ix}`} className={`tab-pane ${ix === 0 ? 'active' : ''}`} id={av.title}>
                                     <div id={`mainCarousel${ix}`} className={`${s.carouselSpec} carousel slide`} data-ride="carousel">
-                                        <div className="carousel-inner">
+                                        <div className="carousel-inner pl-5 pr-5">
                                             {av.images && av.images.length && av.images.map((img, iImg) => (
                                             <div key={`img${iImg}`} className={`carousel-item ${iImg === 0 ? 'active' : ''}`}>  
                                                 <img  className="d-block w-100" src={require(`../../../../../../static/${img.data}`)} alt={img.data} />
