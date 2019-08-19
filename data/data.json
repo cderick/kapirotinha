@@ -94,38 +94,82 @@
     }, {
         "title": "Banners",
         "images": [{
-            "data": "art1.jpg"
+            "data": "banner1.png"
         }, {
-            "data": "art2.jpg"
+            "data": "banner2.png"
         }, {
-            "data": "art3.jpg"
+            "data": "banner3.png"
+        }, {
+            "data": "banner4.png"
+        }, {
+            "data": "banner5.jpg"
+        }, {
+            "data": "banner6.jpg"
+        }, {
+            "data": "banner7.jpg"
+        }, {
+            "data": "banner8.png"
+        }, {
+            "data": "banner9.jpg"
+        }, {
+            "data": "banner10.jpg"
+        }, {
+            "data": "banner11.jpg"
         }]
     }, {
         "title": "Fashion",
         "images": [{
-            "data": "art1.jpg"
+            "data": "fash1.jpg"
         }, {
-            "data": "art2.jpg"
+            "data": "fash2.jpg"
         }, {
-            "data": "art3.jpg"
+            "data": "fash3.jpg"
+        }, {
+            "data": "fash4.jpg"
+        }, {
+            "data": "fash5.jpg"
+        }, {
+            "data": "fash6.jpg"
+        }, {
+            "data": "fash7.jpg"
+        }, {
+            "data": "fash8.jpg"
+        }, {
+            "data": "fash9.jpg"
+        }, {
+            "data": "fash10.jpg"
+        }, {
+            "data": "fash11.jpg"
+        }, {
+            "data": "fash12.jpg"
+        }, {
+            "data": "fash13.jpg"
+        }, {
+            "data": "fash14.jpg"
         }]
     }, {
         "title": "Logos",
         "images": [{
-            "data": "art1.jpg"
+            "data": "logo1.png"
         }, {
-            "data": "art2.jpg"
+            "data": "logo2.png"
         }, {
-            "data": "art3.jpg"
+            "data": "logo3.png"
+        }, {
+            "data": "logo4.png"
+        }, {
+            "data": "logo5.png"
         }]
     }, {
         "title": "Posters",
         "images": [{
-            "data": "art1.jpg"
+            "data": "poster1.jpg"
         }, {
-            "data": "art2.jpg"
+            "data": "poster2.jpg"
         }, {
-            "data": "art3.jpg"
+            "data": "poster3.jpg"
+        }, {
+            "data": "poster4.jpg"
         }]
     }],
     "mainWorks": [{
