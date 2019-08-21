@@ -522,67 +522,58 @@
             "descripton": null,
             "collorPallete": {
                 "mainTitle": "Collor Pallete:",
+                "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on Interactive House project and consists of only 6 background colors: <strong><em>planning-blue-10, planning-blue-20, planning-red-10, planning-white-100, planning-gray-10, planning-black-100.</em></strong> These web standards color palette can be applied to only background elements and for other elements you can use any bootstrap color available on the <a href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
-                    "color": "#000FFF",
-                    "name": ".my-color-10"
+                    "color": "#5B5959",
+                    "name": ".cantyna-gray-10"
                 }, {
-                    "color": "#000FFF",
-                    "name": ".my-color-10"
+                    "color": "#4F769E",
+                    "name": ".cantyna-gray-20"
                 }, {
-                    "color": "#000FFF",
-                    "name": ".my-color-10"
-                }],
-                "right": [{
-                    "color": "#000FFF",
-                    "name": ".my-color-10"
-                }, {
-                    "color": "#000FFF",
-                    "name": ".my-color-10"
-                }, {
-                    "color": "#000FFF",
-                    "name": ".my-color-10"
+                    "color": "#FFFFFF",
+                    "name": ".cantyna-white-100"
                 }]
             },
             "typoGraphy": {
                 "mainTitle": "Typography",
-                "description": "<p>Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.</p>",
+                "description": "<p style=\"font-size: 0.9rem\">Effective text treatment can help developers create pages with character and style using attributes such as size, color and weight. <br />Unique font-family in the whole project: <strong><em>Open Sans, sans-serif</em></strong> with 100 of font-weight to get a lighter visualization.<br />The default font size is <strong><em>1rem</em></strong>. All elements, including headings (H1-6) are set to the default font size. To size any paragraph or heading element to be larger or smaller than the default font size, you must add a size class.<br />The standard size classes that can be used on any text element are: <strong><em>plan-title-h1, plan-subtitle-h2, plan-subtitle-h3, plan-subtitle-h4, plan-subtitle-h5, plan-subtitle-h6</em></strong>. For example, <strong><em>&lt;h1 class=\"plan-subtitle-h3\"&gt;</em></strong> reduces the H1 text to 1.75rem.<br />As this project is aligned together with Bootstrap any Display classes could be used to increase the font-size.<p>",
                 "left": [{
                     "type": "H1",
                     "classes": "h1 float-left mr-3",
                     "size": "Size: 2.5rem",
                     "sizeClass" : "pt-1 mb-0",
-                    "name": ".h1-title"
+                    "name": ".cantyna-title-h1"
                 }, {
                     "type": "H2",
                     "classes": "h2 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 2rem",
                     "sizeClass" : "pt-1 mb-0",
-                    "name": ".h2-subtitle"
+                    "name": ".cantyna-subtitle-h2"
                 }, {
                     "type": "H3",
                     "classes": "h3 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1.75rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h3-subtitle"
+                    "name": ".cantyna-subtitle-h3"
                 }],
                 "right": [{
                     "type": "H4",
                     "classes": "h4 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1.5rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h4-subtitle"
+                    "name": ".cantyna-subtitle-h4"
                 }, {
                     "type": "H5",
                     "classes": "h5 ml-0 mt-0 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1.25rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h5-subtitle"
+                    "name": ".cantyna-subtitle-h5"
                 }, {
                     "type": "H6",
                     "classes": "h6 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h6-subtitle"
+                    "name": ".cantyna-subtitle-h6"
                 }] 
             },
             "bannerSections": [{
