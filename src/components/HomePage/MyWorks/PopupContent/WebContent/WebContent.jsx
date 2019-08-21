@@ -87,7 +87,7 @@ class WebContent extends React.Component {
                                                                     {cv.collorPallete.left &&
                                                                         cv.collorPallete.left.map((cpl, indcpl) =>
                                                                             <div key={`left${cpl.name}${indcpl}`} className="pb-3">
-                                                                                <div className={s.colorRounded} style={{ border: `1px solid ${cpl.color}`, backgroundColor: `${cpl.color}` }}>&nbsp;</div>
+                                                                                <div className={s.colorRounded} style={{ border: `1px solid ${cpl.color === '#FFFFFF' ? '#000' : cpl.color}`, backgroundColor: `${cpl.color}` }}>&nbsp;</div>
                                                                                 <p className="pt-3 mb-0">{cpl.color}</p>
                                                                                 <p>{cpl.name}</p>
                                                                             </div>
