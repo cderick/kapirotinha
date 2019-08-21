@@ -195,7 +195,7 @@
             },
             "collorPallete": {
                 "mainTitle": "Collor Pallete:",
-                "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on Interactive House project and consists of only 6 background colors: <strong><em>planning-blue-10, planning-blue-20, planning-red-10, planning-white-100, planning-gray-10, planning-black-100.</em></strong> These web standards color palette can be applied to only background elements and for other elements you can use any bootstrap color available on the <a href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
+                "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on Interactive House project and consists of only 6 background colors: <strong><em>planning-blue-10, planning-blue-20, planning-red-10, planning-white-100, planning-gray-10, planning-black-100.</em></strong> These web standards color palette can be applied to only background elements and for other elements you can use any bootstrap color available on the <a href='https://getbootstrap.com/docs/4.3/utilities/colors/' target='_blank'>Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#d4e9f5",
                     "name": ".planning-blue-10"
