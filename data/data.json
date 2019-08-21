@@ -277,16 +277,16 @@
                     "name": ".mh-light-gray-10"
                 }, {
                     "color": "#7DA0B2",
-                    "name": ".mh-light-blue-10"
+                    "name": ".mh-light-gray-20"
                 }, {
                     "color": "#49ACCC",
-                    "name": ".mh-light-blue-20"
+                    "name": ".mh-light-blue-10"
                 }],
                 "right": [{
                     "color": "#000000",
                     "name": ".mh-black-100"
                 }, {
-                    "color": "#FFFFF",
+                    "color": "#FFFFFF",
                     "name": ".mh-white-100"
                 }]
             },
