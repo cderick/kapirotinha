@@ -75,7 +75,7 @@
             background-size: 100% 60px;
         }
     }
-    a {
+    .myClose {
         position: absolute;
         color: white;
         text-decoration: none;
@@ -111,7 +111,7 @@
                 margin: 0 0 20px !important;
             }
         }
-        a {
+        .myClose {
             color: black;
             border: solid 1px #000;
             position: relative;
