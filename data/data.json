@@ -174,7 +174,7 @@
     }],
     "mainWorks": [{
         "mainTitle": "Web UI Design & Prototypes",
-        "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+        "descritpion": "Projects related to responsive UI websites, applying UX best practices, with extreme attention to accessibility. Company design and branding, corporate identity and style guides, build, design and maintain company designs. Expand my projects to absorb my work.",
         "allWorks": [{
             "workName": "Interactive House",
             "uniQueId": "interactiveHouseWebwork",
@@ -196,27 +196,24 @@
             "collorPallete": {
                 "mainTitle": "Collor Pallete:",
                 "left": [{
-                    "color": "#FFF000",
-                    "name": ".myhealth-color-10"
+                    "color": "#d4e9f5",
+                    "name": ".planning-blue-10"
                 }, {
-                    "color": "#000FFF",
-                    "name": ".myhealth-color-20"
+                    "color": "#1960b0",
+                    "name": ".planning-blue-20"
                 }, {
-                    "color": "#FFF0FF",
-                    "name": ".myhealth-color-30"
-                }, {
-                    "color": "#FFF0FF",
-                    "name": ".myhealth-color-30"
+                    "color": "#b2202b",
+                    "name": ".planning-red-10"
                 }],
                 "right": [{
                     "color": "#FF0FFF",
-                    "name": ".myhealth-color-10"
+                    "name": ".planning-white-100"
                 }, {
-                    "color": "#FF00FF",
-                    "name": ".myhealth-color-10"
+                    "color": "#c0c0c0",
+                    "name": ".planning-gray-10"
                 }, {
-                    "color": "#000FFF",
-                    "name": ".myhealth-color-10"
+                    "color": "#000000",
+                    "name": ".planning-black-100"
                 }]
             },
             "typoGraphy": {
@@ -227,38 +224,38 @@
                     "classes": "h1 float-left mr-3",
                     "size": "Size: 2.5rem",
                     "sizeClass" : "pt-1 mb-0",
-                    "name": ".h1-title"
+                    "name": ".planning-h1-title"
                 }, {
                     "type": "H2",
                     "classes": "h2 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 2rem",
                     "sizeClass" : "pt-1 mb-0",
-                    "name": ".h2-subtitle"
+                    "name": ".planning-h2-subtitle"
                 }, {
                     "type": "H3",
                     "classes": "h3 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1.75rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h3-subtitle"
+                    "name": ".planning-h3-subtitle"
                 }],
                 "right": [{
                     "type": "H4",
                     "classes": "h4 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1.5rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h4-subtitle"
+                    "name": ".planning-h4-subtitle"
                 }, {
                     "type": "H5",
                     "classes": "h5 ml-0 mt-0 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1.25rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h5-subtitle"
+                    "name": ".planning-h5-subtitle"
                 }, {
                     "type": "H6",
                     "classes": "h6 float-left mr-3",
-                    "size": "Size: 2.5rem",
+                    "size": "Size: 1rem",
                     "sizeClass" : "mb-0",
-                    "name": ".h6-subtitle"
+                    "name": ".planning-h6-subtitle"
                 }] 
             },
             "bannerSections": [{
@@ -614,7 +611,7 @@
     }, {
         "mainTitle": "App UI Design & Prototypes",
         "classTitle": "text-right",
-        "descritpion": "Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag.",
+        "descritpion": "Projects related to experimental Applications, applying the best practices of UX, with extreme attention to accessibility. Discovering new tools and working with various prototype methods to create a perfect look for the customer to understand the true intention of the final product. Expand it to check my projects.",
         "classDescrip": "text-right mt-4",
         "rightHr": true,
         "allWorks": [{
