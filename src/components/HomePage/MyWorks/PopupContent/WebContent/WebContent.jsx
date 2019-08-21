@@ -81,7 +81,7 @@ class WebContent extends React.Component {
                                                     <div className={`row mt-4 ${s.clearDisplay}`}>
                                                         <div className="col" style={cv.styleColPallete}>
                                                             <h2 className="text-center">{cv.collorPallete.mainTitle}</h2>
-                                                            {cv.collorPallete.description ? <div className="pt-4" dangerouslySetInnerHTML={{__html: cv.collorPallete.description}} /> : ''}
+                                                            {cv.collorPallete.description ? <div className="pt-2" dangerouslySetInnerHTML={{__html: cv.collorPallete.description}} /> : ''}
                                                             <div className={`row pt-4 ${s.textCenterSmall} ${s.clearDisplay}`}>
                                                                 <div className="col">
                                                                     {cv.collorPallete.left &&
@@ -107,7 +107,7 @@ class WebContent extends React.Component {
                                                         </div>
                                                         <div className="col" style={cv.styleColTypography}>
                                                             <h2 className="text-center">{cv.typoGraphy.mainTitle}</h2>
-                                                            {cv.typoGraphy.description ? <div className="pt-4" dangerouslySetInnerHTML={{__html: cv.typoGraphy.description}} /> : ''}
+                                                            {cv.typoGraphy.description ? <div className="pt-2" dangerouslySetInnerHTML={{__html: cv.typoGraphy.description}} /> : ''}
                                                             <div className={`row ${s.clearDisplay}`}>
                                                                 <div className="col">
                                                                     {cv.typoGraphy.left &&

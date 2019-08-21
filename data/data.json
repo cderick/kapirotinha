@@ -195,6 +195,7 @@
             },
             "collorPallete": {
                 "mainTitle": "Collor Pallete:",
+                "description": "<p>Effective text treatment can help developers create pages with character and style using attributes such as size, color and weight. <br />Unique font-family in the whole project: Open Sans, sans-serif with 100 of font-weight to get a lighter visualization.<br />The default font size is 1rem. All elements, including headings (H1-6) are set to the default font size.<br />To size any paragraph or heading element to be larger or smaller than the default font size, you must add a size class.<br />The standard size classes that can be used on any text element are: plan-title-h1, plan-subtitle-h2, plan-subtitle-h3, plan-subtitle-h4, plan-subtitle-h5, plan-subtitle-h6. For example, &lt;h1 class=\"plan-subtitle-h3\"&gt; reduces the H1 text to 1.75rem.<br />As this project is aligned together with Bootstrap any Display classes could be used to increase the font-size.<p>",
                 "left": [{
                     "color": "#d4e9f5",
                     "name": ".planning-blue-10"
@@ -218,7 +219,7 @@
             },
             "typoGraphy": {
                 "mainTitle": "Typography",
-                "description": "<p>Ethical messenger bag waistcoat raclette. Forage scenester af air plant williamsburg. DIY forage tote bag, pinterest tumeric venmo distillery la croix salvia +1 swag. Ethical messenger bag waistcoat raclette.</p>",
+                "description": "<p>Effective text treatment can help developers create pages with character and style using attributes such as size, color and weight. <br />Unique font-family in the whole project: Open Sans, sans-serif with 100 of font-weight to get a lighter visualization.<br />The default font size is 1rem. All elements, including headings (H1-6) are set to the default font size.<br />To size any paragraph or heading element to be larger or smaller than the default font size, you must add a size class.<br />The standard size classes that can be used on any text element are: plan-title-h1, plan-subtitle-h2, plan-subtitle-h3, plan-subtitle-h4, plan-subtitle-h5, plan-subtitle-h6. For example, &lt;h1 class=\"plan-subtitle-h3\"&gt; reduces the H1 text to 1.75rem.<br />As this project is aligned together with Bootstrap any Display classes could be used to increase the font-size.<p>",
                 "left": [{
                     "type": "H1",
                     "classes": "h1 float-left mr-3",
