@@ -44,7 +44,7 @@ class WebContent extends React.Component {
             <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>
                 {mainWorks && mainWorks.length &&
                         <div className={s.popUp} id="accordion">
-                            <a className="close" onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
+                            <a className={`${s.myClose} close`} onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
                             {mainWorks.map((wb, indwb) =>
                                 <section key={`${wb.mainTitle}${indwb}`}>
                                     <h2 className={`h1 mb-2 ${wb.classTitle && wb.classTitle}`}>{wb.mainTitle}</h2>
