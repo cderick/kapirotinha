@@ -75,7 +75,7 @@ class WebContent extends React.Component {
                                                     {cv.wNdescription &&
                                                     <div className="row mt-4">
                                                         <div style={cv.wNColStyle}>
-                                                            <p>{cv.wNdescription}</p>
+                                                            <div dangerouslySetInnerHTML={{__html: cv.wNdescription}} />
                                                         </div>
                                                     </div>}
                                                     <div className={`row mt-4 ${s.clearDisplay}`}>
