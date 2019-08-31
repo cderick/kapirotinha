@@ -82,8 +82,13 @@ class MyWorks extends React.Component {
 											<h2 className={`mb-0 display-4 pt-5 pb-4`}>{cv.workName}</h2>
 										</div>
 										<div className={s.contentPopup}>
-											<img src={require(`../../../../static/${cv.bannerImage}`)} alt={cv.bannerImage}
-												className={s.resizeImage} />
+											<img src={require(`../../../../static/${cv.bannerImage}`)} alt={cv.bannerImage} className={s.resizeImage} />
+											{cv.wNdescription && cv.workName === 'Interactive House' &&
+												<div className="row mt-4">
+													<div style={cv.wNColStyle}>
+														<div dangerouslySetInnerHTML={{ __html: cv.wNdescription }} />
+													</div>
+												</div>}
 											<div className={`row mt-4 ${s.clearDisplay}`}>
 												<div className="col" style={cv.styleColPallete}>
 													<h2 className="text-center">{cv.collorPallete.mainTitle}</h2>
