@@ -56,10 +56,7 @@ class MyWorks extends React.Component {
 	}
 
 	render() {
-		const { myWorks, mainWorks } = this.props;
-		const { overlayActive } = this.state;
-		console.log(mainWorks)
-		const cv = undefined
+		const { mainWorks } = this.props;
 		return (
 			<div id="myWorks" className={`container-fluid ${s.containerBackground}`}>
 				{mainWorks && mainWorks.length &&
@@ -74,13 +71,16 @@ class MyWorks extends React.Component {
 									</div>
 								</div>
 								{mainWorks[0].allWorks[1] && mainWorks[0].allWorks[1].wNdescription && indwb !== 1 &&
-								<div className="row mt-4">
-									<div style={mainWorks[0].allWorks[1] && mainWorks[0].allWorks[1].wNColStyle}>
-										<div dangerouslySetInnerHTML={{ __html: mainWorks[0].allWorks[1] && mainWorks[0].allWorks[1].wNdescription }} />
-									</div>
-								</div>}
+									<div className="row mt-4">
+										<div style={mainWorks[0].allWorks[1] && mainWorks[0].allWorks[1].wNColStyle}>
+											<div dangerouslySetInnerHTML={{ __html: mainWorks[0].allWorks[1] && mainWorks[0].allWorks[1].wNdescription }} />
+										</div>
+									</div>}
 								{wb.allWorks && wb.allWorks.map((cv, ind) =>
 									<div key={`collapse${ind}`} id={`collapse${cv.uniQueId}`}>
+										<div id={cv.uniQueId} className={`${s.bottomContainer}`}>
+											<h2 className={`mb-0 display-4 pt-5 pb-4`}>{cv.workName}</h2>
+										</div>
 										<div className={s.contentPopup}>
 											<img src={require(`../../../../static/${cv.bannerImage}`)} alt={cv.bannerImage}
 												className={s.resizeImage} />
