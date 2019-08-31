@@ -43,11 +43,7 @@ class HomePage extends React.Component {
 	render() {
 		return (
 			<section>
-				<Navigation navItems={this.state.navItems} />
-				<HeroBanner heroBanner={this.state.heroBanner} />
-				<AboutMe aboutMe={this.state.aboutMe} />
 				<MyWorks artWorks={this.state.artWorks} myWorks={this.state.myWorks} mainWorks={this.state.mainWorks} />
-				<ContactMe contactMe={this.state.contactMe} />
 			</section>
 		);
 
