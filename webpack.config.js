@@ -107,7 +107,7 @@ if (TARGET === 'dev') {
                     ],
                 },
                 {
-                    test: /\.(png|svg|jpg|jpeg|gif|pdf|mp4)$/,
+                    test: /\.(png|ico|svg|jpg|jpeg|gif|pdf|mp4)$/,
                     use: ['file-loader?name=[name].[ext]&outputPath=images/'],
                 },
             ],
@@ -191,7 +191,7 @@ if (TARGET === 'dev') {
                     ],
                 },
                 {
-                    test: /\.(png|svg|jpg|jpeg|gif|pdf|mp4)$/,
+                    test: /\.(png|ico|svg|jpg|jpeg|gif|pdf|mp4)$/,
                     use: ['file-loader?name=[name].[ext]&outputPath=images/'],
                 },
             ],
