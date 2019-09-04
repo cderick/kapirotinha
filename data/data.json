@@ -195,7 +195,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on Interactive House project and consists of only 6 background colors: <strong><em>planning-blue-10, planning-blue-20, planning-red-10, planning-white-100, planning-gray-10, planning-black-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#D4E9F5",
@@ -285,7 +285,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on this project and consists of only 5 background colors: <strong><em>mh-light-gray-10, mh-light-gray-20, mh-light-blue-10, mh-black-100, mh-white-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#92AEBE",
@@ -384,7 +384,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for this project and consists of only 6 background colors: <strong><em>eventi-purple-10, eventi-purple-20, eventi-purple-30, eventi-purple-40, eventi-white-100, eventi-dark-gray-10.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#9D748A",
@@ -482,7 +482,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on this project and consists of only 4 background colors: <strong><em>poltrip-gray-10, poltrip-blue-10, poltrip-black-100, poltrip-white-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#69778A",
@@ -578,7 +578,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on this project and consists of only 3 background colors: <strong><em>cantyna-gray-10, cantyna-gray-20, cantyna-white-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#5B5959",
@@ -670,7 +670,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on this project and consists of only 3 background colors: <strong><em>botto-shadow-10, botto-black-100, botto-white-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#F6F3EF",
@@ -743,7 +743,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on this project and consists of only 3 background colors: <strong><em>kakoi-gray-10, kakoi-black-100, kakoi-white-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#5A5959",
@@ -816,7 +816,7 @@
                 "padding": "20px"
             },
             "collorPallete": {
-                "mainTitle": "Collor Pallete:",
+                "mainTitle": "Color Pallete:",
                 "description": "<p style=\"font-size: 0.9rem\">The web standards color palette is a finite set of colors approved for use on this project and consists of only 3 background colors: <strong><em>ts-gray-10, ts-black-100, ts-white-100.</em></strong> These web standards color palette can be applied only in background elements and for other elements the development team can use any bootstrap color available on the <a class=\"text-dark\" href=\"https://getbootstrap.com/docs/4.3/utilities/colors/\" target=\"_blank\">Bootstrap documentation</a>.</p>",
                 "left": [{
                     "color": "#AAA9A6",
