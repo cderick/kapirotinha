@@ -13,7 +13,7 @@ class AboutMe extends React.Component {
 		return (
 			<div id="aboutMe" className={`container-fluid ${s.containerBackground}`}>
 				<div className={`row h-100 ${s.clearDisplay}`}>
-					<div className="col my-auto p-0 text-center">
+					<div className="col my-auto pt-5 pb-5 text-center">
 						<h2 className="h1 mb-4">{aboutMe && aboutMe.title && aboutMe.title}</h2>
 						<hr />
 						<div className="text-white text-justify pl-5 pr-5 mt-2">{aboutMe && aboutMe.subTitle && <div dangerouslySetInnerHTML={{__html: aboutMe.subTitle}} />}</div>

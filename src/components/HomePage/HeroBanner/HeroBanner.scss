@@ -1,7 +1,6 @@
 .containerBackground {
 	background-image: url('../../../../static/headback.png');
 	background-position: center center;
-	height: 70vh;
 	max-height: 800px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -30,9 +29,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	.containerBackground {
-		height: 45vh;
-	}
 	h1 {
 		font-size: 3rem !important;
 		padding-bottom: 0px !important;
@@ -49,7 +45,6 @@
 @media only screen and (max-width: 823px)  
                    and (orientation: landscape) {
 	.containerBackground {
-		height: 75vh !important;
 		hr {
 			width: 60%;
 			padding-bottom: 20px !important;
@@ -64,22 +59,7 @@
 	}
 }
 
-//Pixel 2XL 823
-//Iphone X 812
-
-//Ipad??
-
-@media only screen and (max-width: 767px)  
-                   and (orientation: landscape) {
-	.containerBackground {
-		height: 85vh !important;
-	}
-}
-
 @media (max-width: 767px) {
-	.containerBackground {
-		height: 50vh;
-	}
 	h1 {
 		font-size: 1.7rem !important;
 		padding-bottom: 0px !important;

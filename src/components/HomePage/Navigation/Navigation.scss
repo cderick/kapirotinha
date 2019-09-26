@@ -15,7 +15,10 @@ $background_color_greylighter: #ddd;
 	width: 100%;
 	top: 0;
 	z-index: 999999;
-	a {
+	button {
+		background: transparent;
+		outline: 0;
+		border: none;
 		float: right;
 		display: block;
 		color: $color_lightwhite;
@@ -50,11 +53,11 @@ $background_color_greylighter: #ddd;
 		display: block !important;
 	}
 	.topnav {
-		a:not(:first-child) {
+		button:not(:first-child) {
 			display: none;
 			width: 100%;
 		}
-		a {
+		button {
 			font-size: 15px;
 		}
 	}
@@ -65,11 +68,11 @@ $background_color_greylighter: #ddd;
 		display: block !important;
 	}
 	.topnav {
-		a:not(:first-child) {
+		button:not(:first-child) {
 			display: none;
 			width: 100%;
 		}
-		a {
+		button {
 			font-size: 15px;
 		}
 	}

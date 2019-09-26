@@ -11,7 +11,7 @@ class ContactMe extends React.Component {
 		const { contactMe } = this.props;
 		return (
 			<div id="contactMe" className={`container-fluid ${s.containerBackground}`}>
-				<div className={`row h-100 ${s.clearDisplay}`}>
+				<div className={`row pt-5 pb-5 h-100 ${s.clearDisplay}`}>
 					<div className={`${s.paddingNoneSm} col my-auto text-center pl-0`}>
 						<h2 className="h1 mb-3">{contactMe && contactMe.title && contactMe.title}</h2>
 						<hr />
