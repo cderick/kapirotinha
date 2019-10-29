@@ -69,7 +69,7 @@ class MyWorks extends React.Component {
 					{myWorks && myWorks.cards &&
 						myWorks.cards.map((cv, ind) =>
 							<div key={`socialId${ind}`} className="col p-0 my-auto text-center">
-								<div className={s.myCard} onClick={() => {
+								<div id={`mainid${cv.target}`} className={s.myCard} onClick={() => {
 									this.setState({
 										popUpcontent: cv.target,
 									}, () => {

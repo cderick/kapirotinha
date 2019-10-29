@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Navigation from './Navigation/Navigation';
-import HeroBanner from './HeroBanner/HeroBanner';
 import AboutMe from './AboutMe/AboutMe';
 import MyWorks from './MyWorks/MyWorks';
 import ContactMe from './ContactMe/ContactMe';
@@ -37,14 +36,21 @@ class HomePage extends React.Component {
 			contactMe: conversao.contactMe,
 			mainWorks: conversao.mainWorks,
 			artWorks: conversao.artWorks,
-		});
+		}, () => {
+			const link = window.location.href
+			if(link.includes(`?portfolio`)){
+				setTimeout(() => {
+					const buttonweb = document.querySelector('#mainidweb')
+					buttonweb.click()
+				}, 600)
+			}
+		})
 	}
 	
 	render() {
 		return (
 			<section>
 				<Navigation navItems={this.state.navItems} />
-				<HeroBanner heroBanner={this.state.heroBanner} />
 				<AboutMe aboutMe={this.state.aboutMe} />
 				<MyWorks artWorks={this.state.artWorks} myWorks={this.state.myWorks} mainWorks={this.state.mainWorks} />
 				<ContactMe contactMe={this.state.contactMe} />
