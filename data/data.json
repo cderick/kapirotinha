@@ -115,6 +115,14 @@
             "data": "banner10.jpg"
         }, {
             "data": "banner11.jpg"
+        }, {
+            "data": "halloween3.png"
+        }, {
+            "data": "halloween2.png"
+        }, {
+            "data": "halloween1.png"
+        }, {
+            "data": "bannerlorem.png"
         }]
     }, {
         "title": "Fashion",
@@ -159,6 +167,16 @@
             "data": "logo4.png"
         }, {
             "data": "logo5.png"
+        }, {
+            "data": "lorem3.jpg"
+        },{
+            "data": "lorem02.png"
+        },{
+            "data": "lorem1.png"
+        },{
+            "data": "lorem4.png"
+        },{
+            "data": "lorem5.png"
         }]
     }, {
         "title": "Posters",
@@ -170,6 +188,11 @@
             "data": "poster3.jpg"
         }, {
             "data": "poster4.jpg"
+        }]
+    }, {
+        "title": "Motion",
+        "images": [{
+            "data": "drop.mp4"
         }]
     }],
     "mainWorks": [{
