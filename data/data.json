@@ -92,6 +92,11 @@
             "data": "art15.jpg"
         }]
     }, {
+        "title": "Motion",
+        "images": [{
+            "data": "drop.mp4"
+        }]
+    }, {
         "title": "Banners",
         "images": [{
             "data": "banner1.png"
@@ -188,11 +193,6 @@
             "data": "poster3.jpg"
         }, {
             "data": "poster4.jpg"
-        }]
-    }, {
-        "title": "Motion",
-        "images": [{
-            "data": "drop.mp4"
         }]
     }],
     "mainWorks": [{
