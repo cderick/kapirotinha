@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import s from './ArtContent.scss';
 
 class ArtContent extends React.Component {
@@ -34,11 +33,13 @@ class ArtContent extends React.Component {
 
     equalHeights() {
         let findClass = document.getElementsByClassName('equalHeights');
-        const finalHeight = document.getElementsByClassName('tab-content')[0].offsetHeight;
-        const getMinHeight = document.getElementsByClassName('grabMinheight')[0].offsetHeight;
-        for (let i = 0; i < findClass.length; i++) {
-            findClass[i].style.minHeight = `${getMinHeight}px`;
-            findClass[i].style.height = `${finalHeight}px`;
+        const finalHeight = document.getElementsByClassName('tab-content')[0] && document.getElementsByClassName('tab-content')[0].offsetHeight;
+        const getMinHeight = document.getElementsByClassName('grabMinheight')[0] && document.getElementsByClassName('grabMinheight')[0].offsetHeight;
+        if (finalHeight && getMinHeight) {
+            for (let i = 0; i < findClass.length; i++) {
+                findClass[i].style.minHeight = `${getMinHeight}px`;
+                findClass[i].style.height = `${finalHeight}px`;
+            }
         }
     }
 
@@ -56,7 +57,7 @@ class ArtContent extends React.Component {
         return (
             <div id="pop-up-one" className={`${s.popUpOverlay} ${s.popUpOverlaytarget}`}>
                 <div className={s.popUp}>
-                    <a className={`close ${s.myClose}`} onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
+                    <span className={`close ${s.myClose}`} onClick={() => this.props.handlePopupOverlay()}>&times;</span>
                     <div className="row grabMinheight h-100">
                         <div className={`col-3 p-0 equalHeights ${s.panelBackground}`}>
                             <ul className={`nav ${s.tabsLeft} sideways`}>
@@ -97,7 +98,7 @@ class ArtContent extends React.Component {
                             </div>
                         </div>
                         <div className={`col pb-5 ${s.mobileOnly}`}>
-                            <a className={`close ${s.myCloseMobile}`} onClick={() => this.props.handlePopupOverlay()} href="javascript:void(0);">&times;</a>
+                            <span className={`close ${s.myCloseMobile}`} onClick={() => this.props.handlePopupOverlay()}>&times;</span>
                             {artWorks && artWorks.length && artWorks.map((av, ix) => (
                                 <div key={`imagesArt${ix}`} id={`mobile${av.title}`}>
                                     <h2 className={`h2 pt-5 text-center pb-3 ${s.titleMobile}`}>{av.title}</h2>
@@ -105,7 +106,13 @@ class ArtContent extends React.Component {
                                         <div className="carousel-inner pl-5 pr-5">
                                             {av.images && av.images.length && av.images.map((img, iImg) => (
                                                 <div key={`img${iImg}`} className={`carousel-item ${iImg === 0 ? 'active' : ''}`}>
-                                                    <img className="d-block w-100" src={require(`../../../../../../static/${img.data}`)} alt={img.data} />
+                                                    {av.title === 'Motion' ?
+                                                        <video playsInline autoPlay loop className="d-block w-100">
+                                                            <source src={require(`../../../../../../static/${img.data}`)} type="video/mp4" />
+                                                        </video>
+                                                        :
+                                                        <img className="d-block w-100" src={require(`../../../../../../static/${img.data}`)} alt={img.data} />
+                                                    }
                                                 </div>
                                             ))}
                                         </div>

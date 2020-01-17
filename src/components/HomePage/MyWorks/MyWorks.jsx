@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import s from './MyWorks.scss';
-import artWorks from '../../../../static/artworks.png';
-import webProtos from '../../../../static/webprotos.png';
+import artWorks from '../../../../static/artdesign.png';
+import webProtos from '../../../../static/webui.png';
 import PopupContent from './PopupContent/PopupContent';
 
 class MyWorks extends React.Component {
@@ -29,8 +28,8 @@ class MyWorks extends React.Component {
 		});
 	}
 
-	componentWillUnmount(){
-		window.removeEventListener('resize', this.equalHeights);	
+	componentWillUnmount() {
+		window.removeEventListener('resize', this.equalHeights);
 	}
 
 	componentDidMount() {
@@ -45,13 +44,15 @@ class MyWorks extends React.Component {
 	equalHeights() {
 		let findClass = document.getElementsByClassName('overflow-hidden');
 		let tallest = 0;
-		for (let i = 0; i < findClass.length; i++) {
-			const ele = findClass[i];
-			const eleHeight = ele.offsetHeight;
-			tallest = (eleHeight > tallest ? eleHeight : tallest);
-		}
-		for (let i = 0; i < findClass.length; i++) {
-			findClass[i].style.height = `${tallest}px`;
+		if(findClass){
+			for (let i = 0; i < findClass.length; i++) {
+				const ele = findClass[i];
+				const eleHeight = ele.offsetHeight;
+				tallest = (eleHeight > tallest ? eleHeight : tallest);
+			}
+			for (let i = 0; i < findClass.length; i++) {
+				findClass[i].style.height = `${tallest}px`;
+			}
 		}
 	}
 
@@ -61,29 +62,73 @@ class MyWorks extends React.Component {
 		return (
 			<div id="myWorks" className={`container-fluid ${s.containerBackground}`}>
 				<div className="row">
-					<div className="col text-center">
+					<div className={`col text-right ${s.paddingControl}`}>
 						<h3 className="h1 pt-4 pb-3">{myWorks && myWorks.title}</h3>
 					</div>
 				</div>
 				<div className="row">
 					{myWorks && myWorks.cards &&
 						myWorks.cards.map((cv, ind) =>
-							<div key={`socialId${ind}`} className="col p-0 my-auto text-center">
-								<div id={`mainid${cv.target}`} className={s.myCard} onClick={() => {
-									this.setState({
-										popUpcontent: cv.target,
-									}, () => {
-										this.handlePopupOverlay();
-									});
-								}}>
-									<img className={s.imgResize} alt={cv.target === 'web' ? webProtos : artWorks} src={cv.target === 'web' ? webProtos : artWorks} />
-									<div className="p-4 overflow-hidden">
-										<h2 className="h2 pb-3">{cv.cardTitle && cv.cardTitle}</h2>
-										<p>{cv.cardDescrip}</p>
-										<div className={s.fakeButton}>{cv.buttonDescrip && cv.buttonDescrip} <i className="fas fa-chevron-right"></i></div>
+							<section className="container-fluid" key={`socialId${ind}`}>
+								{ind === 0 ?
+									<div className="row">
+										<div className={`col p-0 m-0 ${s.columControl} ${s.mywebBackground}`}>
+											<img className="img-fluid" alt={cv.target === 'web' ? webProtos : artWorks} src={cv.target === 'web' ? webProtos : artWorks} />
+										</div>
+										<div className={`col p-0 m-0 position-relative ${s.columControl}`}>
+											<div className={`${s.mysecondContainer}`}>
+												<h2 className="h2 pb-3">{cv.cardTitle && cv.cardTitle}</h2>
+												<p className={s.customPadding}>{cv.cardDescrip}</p>
+												<section className={s.buttonWrap}>
+													<a
+														onClick={() => {
+															this.setState({
+																popUpcontent: cv.target,
+															}, () => {
+																this.handlePopupOverlay();
+															})
+														}}
+														className={`${s.mainButton} ${s.buttonRec}`}>
+														<svg>
+															<rect x="0" y="0" fill="none" width="100%" height="100%" />
+														</svg>{cv.buttonDescrip && cv.buttonDescrip}
+													</a>
+												</section>
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
+									:
+									<div className="row">
+										<div className={`col p-0 m-0 ${s.columControl} ${s.mobileYes} ${s.myArtBackground}`}>
+											<img className="img-fluid" alt={cv.target === 'web' ? webProtos : artWorks} src={cv.target === 'web' ? webProtos : artWorks} />
+										</div>
+										<div className={`col p-0 m-0 position-relative ${s.columControl}`}>
+											<div className={`${s.mysecondContainer} pl-5`}>
+												<h2 className="h2 pb-3">{cv.cardTitle && cv.cardTitle}</h2>
+												<p className={s.customPadding}>{cv.cardDescrip}</p>
+												<section className={s.buttonWrap}>
+													<a
+														onClick={() => {
+															this.setState({
+																popUpcontent: cv.target,
+															}, () => {
+																this.handlePopupOverlay();
+															})
+														}}
+														className={`${s.mainButton} ${s.buttonRec}`}>
+														<svg>
+															<rect x="0" y="0" fill="none" width="100%" height="100%" />
+														</svg>{cv.buttonDescrip && cv.buttonDescrip}
+													</a>
+												</section>
+											</div>
+										</div>
+										<div className={`col p-0 m-0 ${s.columControl} ${s.mobileNo} ${s.myArtBackground}`}>
+											<img className="img-fluid" alt={cv.target === 'web' ? webProtos : artWorks} src={cv.target === 'web' ? webProtos : artWorks} />
+										</div>
+									</div>
+								}
+							</section>
 						)}
 					{overlayActive && (
 						<PopupContent

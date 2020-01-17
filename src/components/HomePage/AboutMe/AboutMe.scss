@@ -1,60 +1,88 @@
+.mobileContainer {
+	display: none;
+}
+
 .containerBackground {
-	background-image: url('../../../../static/hero.png');
-	background-position: 73% -1px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	h2 {
-		color: white;
-	}
-	h3 {
-		color:white;
-	}
-	img {
+	background-color: #f8f0f0;	
+
+	.mobileContainer {
 		display: none;
 	}
-	hr { 
-		display: block; 
-		height: 1px;
-		border: 0; 
-		border-top: 2px solid #fff;
-		padding: 0 0 30px; 
-		width:	85%;
-		margin: 0;
+
+	.newTry {
+		margin: 0 20%;
+		width: 60%;
+		position: absolute;
 	}
-}
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-	.containerBackground {
-		background-size: cover;
-		background-position: 62%;
-	}
-}
-
-
-@media (max-width: 1024px) {
-	.containerBackground {
-		background-image: none;
-		background: linear-gradient(#023136 85%, white 15%) !important;
+	.rightBlock {
+		margin: 5% 20% 0;
+		padding: 47px;
+		background-color: #020202;
 		color: white;
-		height: auto;
-		padding-bottom: 10px;
-		padding-top: 10px;
-		p {
-			text-align: left !important;
+		position: relative;
+	}
+	
+	.leftContainer {
+		background-image: url('../../../../static/heroAlexbanner.png');
+		background-size: 80%;
+		background-position: center right;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+	.containerBackground {
+		.leftContainer {
+			background-size: 140%;
 		}
-		img {
-			display: block;	
-			width: 80%;		
-			margin: 0 auto;
-			height: auto;
-			border: solid 3px #0a444e;
+		.rightBlock {
+			margin: 5% 8% 0;
 		}
-		h2 {
-			font-size: 1.9rem !important;
-			padding-top: 20px;
+		.newTry {
+			margin: 0 8%;
+			width: 84%;
 		}
 	}
-	.clearDisplay {
-		display: block !important;
+}
+
+@media (max-width: 700px) {
+	.borderCorrection {
+		min-height: 32vh;
+		img {
+			position: absolute;
+			top: -2px
+		}
+	}
+	.mobileContainer {
+		display: block;
+	}
+	.containerBackground {
+		.mobileContainer {
+			display: block;
+		}
+		.blockControl {
+			display: block !important;
+			flex: 0 0 100%;
+			max-width: 100%;
+			width: 100% !important;
+			margin: 0 !important;
+			.rightBlock { 
+				margin: 0 !important;
+			}
+		}
+		.leftContainer {
+			display: none !important;
+		}
+		.columControl {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+}
+
+@media (max-width: 580px) { 
+	.borderCorrection {
+		min-height: 22vh;
 	}
 }

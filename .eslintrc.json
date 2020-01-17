@@ -17,6 +17,7 @@
   "rules": {
       "allowIndentationTabs": true,
       "indent": [2, "tab"],
+      "import/prefer-default-export": 0,
       "no-tabs": 0,
       "no-alert": 0,
       "no-console": 0,
