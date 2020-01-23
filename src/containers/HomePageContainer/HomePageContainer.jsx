@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { API_URL } from '../../constants/config';
 import { getGitContent } from '../../actions';
 import HomePage from '../../components/HomePage/HomePage';
 import loadingImg from '../../../static/loadingImage.gif';
