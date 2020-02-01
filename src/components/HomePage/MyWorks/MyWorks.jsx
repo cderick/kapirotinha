@@ -81,6 +81,7 @@ class MyWorks extends React.Component {
 												<p className={s.customPadding}>{cv.cardDescrip}</p>
 												<section className={s.buttonWrap}>
 													<a
+														id={cv.target === 'web' ? 'mainidweb' : ''}
 														onClick={() => {
 															this.setState({
 																popUpcontent: cv.target,
@@ -108,6 +109,7 @@ class MyWorks extends React.Component {
 												<p className={s.customPadding}>{cv.cardDescrip}</p>
 												<section className={s.buttonWrap}>
 													<a
+														id={cv.target === 'web' ? 'mainidweb' : ''}
 														onClick={() => {
 															this.setState({
 																popUpcontent: cv.target,
