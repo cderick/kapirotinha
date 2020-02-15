@@ -49,6 +49,9 @@
         .polandtripsWebWork {
             background-image: url('../../../../../../static/polandtrips.png');
         }
+        .muzzAppmusic {
+            background-image: url('../../../../../../static/banner_small_muzz.png');
+        }
         .tattooshareWebWork {
             background-image: url('../../../../../../static/tattooshare.png');
         }
@@ -162,6 +165,10 @@ hr {
     padding: 0 0 30px; 
     width:	35%;
     margin: 0;
+}
+
+.marginBottomcustom {
+    margin-bottom: 6rem !important;
 }
 
 .colorRounded {

@@ -49,9 +49,9 @@ class WebContent extends React.Component {
                                 <section key={`${wb.mainTitle}${indwb}`}>
                                     <h2 className={`h1 mb-2 ${wb.classTitle && wb.classTitle}`}>{wb.mainTitle}</h2>
                                     <hr className={`pb-0 ${wb.rightHr ? s.rightHr : `mb-3 ${s.hrLeft}`}`} />
-                                    <h4 className={`pb-4 ${s.h4Small} ${wb.classDescrip && wb.classDescrip}`}>{wb.descritpion}</h4>
+                                    <h4 className={`pb-4 h5 ${s.h4Small} ${wb.classDescrip && wb.classDescrip}`}>{wb.descritpion}</h4>
                                     {wb.allWorks && wb.allWorks.map((cv, ind) =>
-                                        <div key={`${cv.uniQueId}${ind}`} className={`${s.mainComponent} ${s[cv.uniQueId]} mb-5 ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.autoHeight}`}>
+                                        <div key={`${cv.uniQueId}${ind}`} className={`${s.mainComponent} ${s[cv.uniQueId]} ${wb.allWorks.length === ind + 1 ? s.marginBottomcustom : 'mb-5'} ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.autoHeight}`}>
                                             <div id={cv.uniQueId} className={`${s.bottomContainer} ${targetCollapse === cv.uniQueId && targetOn == 'true' && s.positionSmooth}`} onClick={() => {
                                                 const getClickedDiv = document.querySelector(`#${cv.uniQueId}`);
                                                 const att = getClickedDiv.getAttribute('aria-expanded');
