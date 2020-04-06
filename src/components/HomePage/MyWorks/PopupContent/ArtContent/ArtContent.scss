@@ -1,3 +1,91 @@
+$red: #e1332d;
+$white: #fff;
+
+* {
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.buttonWrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .mainButton {
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 45px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+
+        &.mainButtonActive {
+            text-decoration: none;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .buttonRec {
+        background: darken($red, 1.5%);
+        font-weight: 100;
+
+        svg {
+            height: 45px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        rect {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 2;
+            stroke-dasharray: 422, 0;
+            transition: all 0.35s linear;
+        }
+
+        &.mainButtonActive {
+            background: rgba($red, 0);
+            color: black;
+            font-weight: 900;
+            letter-spacing: 1px;
+
+            rect {
+                stroke: #000;
+                stroke-width: 5;
+                stroke-dasharray: 329, 110;
+                stroke-dashoffset: 48;
+                transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+            }
+        }
+
+        &:hover {
+            background: rgba($red, 0);
+            color: black;
+            font-weight: 900;
+            letter-spacing: 1px;
+
+            rect {
+                stroke: #000;
+                stroke-width: 5;
+                stroke-dasharray: 15, 310;
+                stroke-dashoffset: 48;
+                transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+            }
+        }
+    }
+}
+
 .popUpOverlay {
     position: fixed;
     display: flex;
@@ -16,13 +104,13 @@
     .popUp {
         background-color: white;
         color: black;
-        padding: 0 40px 0 0;
+        padding: 0;
         margin: 40px;
         height: 90%;
         overflow: scroll;
         width: 100%;
         .panelBackground {
-            background-image: url('../../../../../../static/panel_background.png');
+            background-image: url("../../../../../../static/panel_background.png");
             background-repeat: no-repeat;
             background-size: cover;
             .tabsLeft {
@@ -34,8 +122,9 @@
                     float: none;
                     margin: 0px;
                     cursor: pointer;
-                    &:hover, &:focus {
-                        background-color: rgba(0,0,0,0.6);
+                    &:hover,
+                    &:focus {
+                        background-color: rgba(0, 0, 0, 0.6);
                         border: none;
                         border-radius: 0px;
                         margin: 0px;
@@ -48,7 +137,7 @@
                     }
                 }
                 .active {
-                    background-color: rgba(0,0,0,0.6);
+                    background-color: rgba(0, 0, 0, 0.6);
                     border: none;
                     border-radius: 0px;
                     margin: 0px;
@@ -86,13 +175,13 @@
 }
 
 .controlLeft {
-    background-image: url('../../../../../../static/carousel-arrow-left.png') !important;
+    background-image: url("../../../../../../static/carousel-arrow-left.png") !important;
     width: 50px;
     height: 50px;
 }
 
 .controlRight {
-    background-image: url('../../../../../../static/carousel-arrow-right.png') !important;
+    background-image: url("../../../../../../static/carousel-arrow-right.png") !important;
     width: 50px;
     height: 50px;
 }
@@ -125,21 +214,21 @@
 }
 .popUpOverlaytarget {
     visibility: visible;
-	opacity: 1;
-	z-index: 999999999999;
+    opacity: 1;
+    z-index: 999999999999;
 }
 
 .rightHr {
     float: right;
 }
 
-hr { 
-    display: block; 
+hr {
+    display: block;
     height: 1px;
-    border: 0; 
+    border: 0;
     border-top: 2px solid #000;
-    padding: 0 0 30px; 
-    width:	35%;
+    padding: 0 0 30px;
+    width: 35%;
     margin: 0;
 }
 
@@ -148,7 +237,7 @@ hr {
     height: 75px;
     width: 75px;
     float: left;
-    margin-right: 15px; 
+    margin-right: 15px;
 }
 
 /*.popUp div {
@@ -156,17 +245,17 @@ hr {
 }*/
 
 @media (min-width: 768px) and (max-width: 823px) {
-    .panelBackground{
+    .panelBackground {
         min-height: 400px !important;
     }
     .removeMobile {
-        min-height: 400px !important
+        min-height: 400px !important;
     }
 }
 
 @media (max-width: 767px) {
-    .popUpOverlay{
-        .popUp{
+    .popUpOverlay {
+        .popUp {
             padding: 0;
             margin: 0;
             height: 100%;
@@ -190,7 +279,7 @@ hr {
                     display: block;
                 }
             }
-            .panelBackground{
+            .panelBackground {
                 display: none !important;
             }
             .removeMobile {
@@ -205,13 +294,13 @@ hr {
         padding: 0 !important;
     }
     .controlLeft {
-        background-image: url('../../../../../../static/carousel-arrow-left.png') !important;
+        background-image: url("../../../../../../static/carousel-arrow-left.png") !important;
         width: 30px;
         height: 30px;
     }
-    
+
     .controlRight {
-        background-image: url('../../../../../../static/carousel-arrow-right.png') !important;
+        background-image: url("../../../../../../static/carousel-arrow-right.png") !important;
         width: 30px;
         height: 30px;
     }
@@ -228,7 +317,3 @@ hr {
         }
     }
 }
-
-  
-  
-  
