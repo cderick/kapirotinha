@@ -123,6 +123,18 @@
                 },
                 {
                     "data": "art15.jpg"
+                },
+                {
+                    "data": "retrogirl.png"
+                },
+                {
+                    "data": "kaseta.png"
+                },
+                {
+                    "data": "calmdown.png"
+                },
+                {
+                    "data": "break.png"
                 }
             ]
         },
@@ -131,6 +143,20 @@
             "images": [
                 {
                     "data": "drop.mp4"
+                }
+            ]
+        },
+        {
+            "title": "Newsletters",
+            "images": [
+                {
+                    "data": "newsletter01.png"
+                },
+                {
+                    "data": "newsletter02.png"
+                },
+                {
+                    "data": "newsletter03.png"
                 }
             ]
         },
@@ -227,6 +253,9 @@
                 },
                 {
                     "data": "logo5.png"
+                },
+                {
+                    "data": "panque1.png"
                 },
                 {
                     "data": "lorem3.jpg"
