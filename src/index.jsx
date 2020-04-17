@@ -5,6 +5,7 @@ import ReduxPromise from 'redux-promise';
 import { Provider } from 'react-redux';
 import '../node_modules/bootstrap/dist/js/bootstrap';
 import '../stylesheets/globalStyles.scss';
+import '../stylesheets/fontawesome/css/all.min.css'
 
 import reducer from './reducers';
 import HomePageContainer from './containers/HomePageContainer/HomePageContainer';
