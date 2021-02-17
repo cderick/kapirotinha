@@ -79,43 +79,6 @@ class Navigation extends React.Component {
 										this.setState({
 											contactActive: !contactActive
 										}, () => {
-											window.location.href = `tel:${navItems && navItems.contactMe && navItems.contactMe.phoneNumer && navItems.contactMe.phoneNumer.trim()}`
-										})
-									}
-								}}
-								className="h5 mb-0">
-								<span
-									data-toggle="tooltip"
-									title="Click here to call me :)"
-									onClick={() => {
-										this.setState({
-											contactActive: !contactActive
-										}, () => {
-											window.location.href = `tel:${navItems && navItems.contactMe && navItems.contactMe.phoneNumer && navItems.contactMe.phoneNumer.trim()}`
-										})
-									}}
-									className={s.contactmeLinks}>
-									<i className="fas fa-phone" /> &nbsp; {navItems && navItems.contactMe && navItems.contactMe.phoneNumer && navItems.contactMe.phoneNumer}
-								</span>
-								<span className={`float-right ${s.noMobile}`}>
-									<CopyToClipboard text={navItems && navItems.contactMe && navItems.contactMe.phoneNumer && navItems.contactMe.phoneNumer}
-										onCopy={() => this.setState({ copied: true }, () => setTimeout(() => {
-											this.setState({
-												contactActive: !contactActive,
-												copied: false
-											})
-										}, 1000))}>
-										{!this.state.copied ? <span data-toggle="tooltip" title="Click here to copy."><i className="fas fa-copy" /></span> : <span><i className={`${s.successCheck} fas fa-check-circle`} /></span>}
-									</CopyToClipboard>
-								</span>
-							</h3>
-							<h3
-								onClick={() => {
-									const wholeWidth = window.innerWidth
-									if (wholeWidth <= 700) {
-										this.setState({
-											contactActive: !contactActive
-										}, () => {
 											window.location.href = `mailto:${navItems && navItems.contactMe && navItems.contactMe.emailAddress && navItems.contactMe.emailAddress}`
 										})
 									}
